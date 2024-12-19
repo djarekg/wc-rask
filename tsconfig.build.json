@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "incremental": true
+    // "paths": {
+    //   "@apn/api": ["./apps/api/src"],
+    //   "@apn/server": ["./apps/web/src"]
+    // }
+  },
+  "files": [],
+  "include": [],
+  "exclude": ["node_modules"],
+  "references": [
+    {
+      "path": "./apps/web"
+    }
+    // {
+    //   "path": "./apps/api"
+    // },
+    // {
+    //   "path": "./packages/server"
+    // }
+  ]
+}

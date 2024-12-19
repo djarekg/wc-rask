@@ -1,0 +1,16 @@
+{
+  "name": "@wc-rask/workspace",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fresh": "rm -rf dist node_modules package-lock.json bun.lockb && bun i"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
