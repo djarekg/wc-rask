@@ -1,0 +1,40 @@
+{
+  "name": "@wc-rask/web",
+  "version": "1.0.0",
+  "exports": {
+    "./dist/css/*": "./dist/css/*",
+    ".": {
+      "default": "./dist/index.js",
+      "source": "./dist/index.js.map",
+      "types": "./dist/index.d.ts",
+    },
+    "./theme": {
+      "default": "./dist/theme/index.js",
+      "source": "./dist/theme/index.js.map",
+    },
+    "./module": {
+      "types": "./src/types/module.d.ts",
+    },
+    "./package.json": "./package.json",
+  },
+  "files": [
+    "src",
+    "dist/**/*.js",
+    "dist/**/*.css",
+    "dist/**/*.map",
+    "dist/**/*.d.ts",
+    "dist/**/*.d.ts.map",
+  ],
+  "private": true,
+  "scripts": {
+    "build": "bun build ./src/index.ts --packages external --sourcemap=linked --experimentalCss --outdir ./dist --external lit --target browser --plugins bun-plugin-dts --root ./src",
+    "postbuild": "bun run build:declaration",
+    "build:declaration": "tsc --project tsconfig.types.json",
+  },
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "devDependencies": {
+    "bun-plugin-dts": "^0.3.0",
+    "bun-plugin-html": "^2.2.4",
+  },
+}

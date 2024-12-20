@@ -1,0 +1,16 @@
+{
+  "env": ["browser", "development", "module"],
+  "imports": {
+    "@lit-labs/router": "https://ga.jspm.io/npm:@lit-labs/router@0.1.3/development/index.js",
+    "app": "./dist/index.js",
+    "lit": "https://ga.jspm.io/npm:lit@3.2.1/index.js",
+  },
+  "scopes": {
+    "https://ga.jspm.io/": {
+      "@lit/reactive-element": "https://ga.jspm.io/npm:@lit/reactive-element@2.0.4/development/reactive-element.js",
+      "lit-element/lit-element.js": "https://ga.jspm.io/npm:lit-element@4.1.1/development/lit-element.js",
+      "lit-html": "https://ga.jspm.io/npm:lit-html@3.2.1/development/lit-html.js",
+      "lit-html/is-server.js": "https://ga.jspm.io/npm:lit-html@3.2.1/development/is-server.js",
+    },
+  },
+}

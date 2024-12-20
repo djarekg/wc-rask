@@ -1,0 +1,12 @@
+{
+  "name": "@wc-rask/core",
+  "version": "1.0.0",
+  "private": true,
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "bun build src/index.ts --packages external --sourcemap=external --experimentalCss --outdir dist --splitting --packages external --external lit --target browser",
+    "postbuild": "bun run build:declaration",
+    "build:declaration": "tsc --emitDeclarationOnly --project ../../tsconfig.types.json"
+  }
+}

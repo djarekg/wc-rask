@@ -1,24 +1,24 @@
 {
   "compilerOptions": {
     "composite": true,
-    "incremental": true
-    // "paths": {
-    //   "@apn/api": ["./apps/api/src"],
-    //   "@apn/server": ["./apps/api/src"]
-    // }
+    "incremental": true,
+    "paths": {
+      "@wc-rask/core": ["./packages/core/src"],
+      "@wc-rask/web": ["./packages/web/src"]
+    }
   },
   "files": [],
   "include": [],
   "exclude": ["node_modules"],
   "references": [
     {
-      "path": "./apps/web"
+      "path": "./apps/demo"
+    },
+    {
+      "path": "./packages/core"
+    },
+    {
+      "path": "./packages/web"
     }
-    // {
-    //   "path": "./apps/api"
-    // },
-    // {
-    //   "path": "./packages/server"
-    // }
   ]
 }

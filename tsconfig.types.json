@@ -1,0 +1,20 @@
+{
+  "extends": ["./tsconfig.base.json", "./tsconfig.lit.json"],
+  "compilerOptions": {
+    "outDir": "${configDir}/dist",
+    "allowJs": false,
+    "composite": true,
+    "incremental": true,
+    "isolatedDeclarations": true,
+    "emitDeclarationOnly": true,
+    "declaration": true,
+    "noEmit": true,
+  },
+  "references": [
+    { "path": "./packages/core" },
+    { "path": "./packages/web" },
+    { "path": "./apps/demo" },
+  ],
+  "include": [],
+  "exclude": [],
+}

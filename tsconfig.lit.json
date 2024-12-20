@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "allowArbitraryExtensions": true,
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "experimentalDecorators": false,
+    "esModuleInterop": true,
+    "module": "NodeNext",
+    "moduleResolution": "nodenext",
+    "resolveJsonModule": true,
+    // "strictPropertyInitialization": false
+    /*
+      Even though this is set in tsconfig.lit.json, unless it is set
+      here the build tools (i.e. @web/dev-server) can't read it.
+    */
+    // "useDefineForClassFields": false,
+    "types": ["lit"],
+  },
+  "files": [],
+  "include": [],
+}

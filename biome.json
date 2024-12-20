@@ -1,78 +1,103 @@
 {
-	"$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
-	"vcs": {
-		"enabled": false,
-		"clientKind": "git",
-		"useIgnoreFile": false
-	},
-	"files": {
-		"ignoreUnknown": false,
-		"ignore": ["node_modules"]
-	},
-	"formatter": {
-		"enabled": true,
-		"indentStyle": "space",
-		"lineWidth": 100
-	},
-	"organizeImports": {
-		"enabled": true,
-		"include": ["**/*.ts", "**/*.tsx"]
-	},
-	"linter": {
-		"enabled": true,
-		"rules": {
-			"recommended": true,
-			"correctness": {
-				"noUnusedVariables": "error",
-				"noUnreachable": "error",
-				"noUnusedImports": "error"
-			},
-			"style": {
-				"noNonNullAssertion": "off",
-				"useShorthandArrayType": "error",
-				"useConst": "error",
-				"useImportType": "error",
-				"useSingleVarDeclarator": "error"
-			},
-			"suspicious": {
-				"noExplicitAny": "error"
-			},
-			"complexity": {
-				"noForEach": "off"
-			}
-		}
-	},
-	"javascript": {
-		"formatter": {
-			"jsxQuoteStyle": "double",
-			"quoteProperties": "asNeeded",
-			"trailingCommas": "all",
-			"semicolons": "always",
-			"arrowParentheses": "asNeeded",
-			"bracketSpacing": true,
-			"bracketSameLine": false,
-			"quoteStyle": "single",
-			"attributePosition": "auto",
-			"indentStyle": "space",
-			"lineEnding": "lf"
-		}
-	},
-	"json": {
-		"formatter": {
-			"trailingCommas": "none",
-			"indentWidth": 2
-		}
-	},
-	"overrides": [
-		{
-			"include": ["apps/server/prisma/types/**/*.ts"],
-			"linter": {
-				"rules": {
-					"correctness": {
-						"noUnusedImports": "off"
-					}
-				}
-			}
-		}
-	]
+  "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
+  "vcs": {
+    "enabled": false,
+    "clientKind": "git",
+    "useIgnoreFile": true,
+    "root": ".",
+    "defaultBranch": "main"
+  },
+  "files": {
+    "include": [
+      "./*.json",
+      "./*.md",
+      "apps/**/*.{js,ts,json,css,html,md}",
+      "packages/**/*.{js,ts,json,css,html,md}"
+    ],
+    "ignoreUnknown": false,
+    "ignore": ["dist", "node_modules"]
+  },
+  "formatter": {
+    "enabled": true,
+    "indentStyle": "space",
+    "lineWidth": 100
+  },
+  "organizeImports": {
+    "enabled": true,
+    "include": ["**/*.ts", "**/*.tsx"]
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true,
+      "correctness": {
+        "noUnusedVariables": "error",
+        "noUnreachable": "error",
+        "noUnusedImports": "error",
+        "useImportExtensions": "error"
+      },
+      "style": {
+        "noNonNullAssertion": "off",
+        "useShorthandArrayType": "error",
+        "useConst": "error",
+        "useImportType": "error",
+        "useSingleVarDeclarator": "error"
+      },
+      "suspicious": {
+        "noExplicitAny": "error"
+      },
+      "complexity": {
+        "noForEach": "off",
+        "useArrowFunction": "warn"
+      },
+      "performance": {
+        "all": true
+      },
+      "nursery": {
+        "noEnum": "error",
+        "noIrregularWhitespace": "error",
+        "useExplicitType": "error",
+        "noDuplicatedFields": "error",
+        "noDuplicateElseIf": "error",
+        "noDuplicateProperties": "error",
+        "noDuplicateCustomProperties": "error"
+      }
+    }
+  },
+  "javascript": {
+    "formatter": {
+      "jsxQuoteStyle": "double",
+      "quoteProperties": "asNeeded",
+      "trailingCommas": "all",
+      "semicolons": "always",
+      "arrowParentheses": "asNeeded",
+      "bracketSpacing": true,
+      "bracketSameLine": false,
+      "quoteStyle": "single",
+      "attributePosition": "auto",
+      "indentStyle": "space",
+      "lineEnding": "lf"
+    }
+  },
+  "json": {
+    "formatter": {
+      "trailingCommas": "all",
+      "indentWidth": 2
+    },
+    "parser": {
+      "allowTrailingCommas": true
+    }
+  },
+  "overrides": [
+    {
+      "include": ["apps/server/prisma/types/**/*.ts"],
+      "linter": {
+        "rules": {
+          "correctness": {
+            "noUnusedImports": "off"
+          }
+        }
+      }
+    }
+  ]
 }

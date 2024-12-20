@@ -1,24 +1,26 @@
 {
+  "extends": ["./tsconfig.base.json"],
   "compilerOptions": {
     "composite": true,
-    "incremental": true
-    // "paths": {
-    //   "@apn/api": ["./apps/api/src"],
-    //   "@apn/server": ["./apps/web/src"]
-    // }
+    "incremental": true,
+    "declaration": true,
+    "paths": {
+      "@wc-rask/core": ["./packages/core/src"],
+      "@wc-rask/web": ["./packages/web/src"],
+    },
   },
   "files": [],
   "include": [],
-  "exclude": ["node_modules"],
+  "exclude": ["node_modules", "dist"],
   "references": [
     {
-      "path": "./apps/web"
-    }
-    // {
-    //   "path": "./apps/api"
-    // },
-    // {
-    //   "path": "./packages/server"
-    // }
-  ]
+      "path": "./apps/demo",
+    },
+    {
+      "path": "./packages/core",
+    },
+    {
+      "path": "./packages/web",
+    },
+  ],
 }

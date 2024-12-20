@@ -2,15 +2,36 @@
   "name": "@wc-rask/workspace",
   "version": "1.0.0",
   "private": true,
+  "author": {
+    "name": "Dustin Griffith"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/djarekg/wc-rask"
+  },
+  "license": "MIT",
   "type": "module",
   "scripts": {
-    "fresh": "rm -rf dist node_modules package-lock.json bun.lockb && bun i"
+    "fresh": "rm -rf dist node_modules package-lock.json bun.lockb && bun i",
+    "build": "bun run --filter '*' build",
+    "check": "biome check --write --changed --staged",
+    "build:ts": "tsc --build --emitDeclarationOnly --verbose",
+    "typecheck": "tsc --noEmit",
+    "ci": "biome ci"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.9.4",
+    "@biomejs/biome": "^1.9.4",
+    "@jspm/import-map": "^1.1.0",
     "@types/bun": "latest"
   },
+  "dependencies": {},
   "peerDependencies": {
-    "typescript": "^5.0.0"
-  }
+    "typescript": "^5",
+    "lit": "^3"
+  },
+  "overrides": {
+    "bun-plugin-dts": "~0.3.0",
+    "bun-plugin-html": "^2.2.0"
+  },
+  "workspaces": ["apps/*", "packages/*"]
 }
