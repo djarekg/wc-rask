@@ -4,8 +4,6 @@
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
     "experimentalDecorators": false,
     "esModuleInterop": true,
-    "module": "NodeNext",
-    "moduleResolution": "nodenext",
     "resolveJsonModule": true,
     // "strictPropertyInitialization": false
     /*

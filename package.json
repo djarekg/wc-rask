@@ -22,12 +22,12 @@
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "@jspm/import-map": "^1.1.0",
-    "@types/bun": "latest"
+    "@types/bun": "^1.1.14"
   },
   "dependencies": {},
   "peerDependencies": {
-    "typescript": "^5",
-    "lit": "^3"
+    "typescript": "^5.7.2",
+    "lit": "^3.2.1"
   },
   "overrides": {
     "bun-plugin-dts": "~0.3.0",

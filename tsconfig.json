@@ -4,21 +4,21 @@
     "incremental": true,
     "paths": {
       "@wc-rask/core": ["./packages/core/src"],
-      "@wc-rask/web": ["./packages/web/src"]
-    }
+      "@wc-rask/web": ["./packages/web/src"],
+    },
   },
   "files": [],
   "include": [],
-  "exclude": ["node_modules"],
+  "exclude": ["node_modules", "dist"],
   "references": [
     {
-      "path": "./apps/demo"
+      "path": "./apps/demo",
     },
     {
-      "path": "./packages/core"
+      "path": "./packages/core",
     },
     {
-      "path": "./packages/web"
-    }
-  ]
+      "path": "./packages/web",
+    },
+  ],
 }

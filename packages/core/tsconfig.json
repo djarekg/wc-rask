@@ -1,13 +1,15 @@
 {
   "extends": ["../../tsconfig.base.json", "../../tsconfig.lit.json"],
   "compilerOptions": {
+    "noEmit": false,
     "tsBuildInfoFile": "dist/tsconfig.tsbuildinfo",
     "rootDir": ".",
     "baseUrl": "./src",
     "paths": {
-      "@/*": ["./src/*"]
-    }
+      "@/*": ["./src/*"],
+    },
   },
   "include": ["./src/**/*"],
-  "exclude": ["dist"]
+  "exclude": ["dist"],
+  "references": [],
 }

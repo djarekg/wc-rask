@@ -5,7 +5,7 @@
   "module": "src/index.ts",
   "type": "module",
   "scripts": {
-    "build": "bun build ./src/index.html --packages external --sourcemap=linked --experimentalCss --outdir ./dist --external lit --target browser --plugins bun-plugin-html --root ./src",
+    "build": "bun build ./src/index.html --packages external --sourcemap=linked --experimentalCss --outdir ./dist --external lit --target browser --plugins bun-plugin-html --root ./src --pubilc-path ./public",
     "postbuild": "bun run build:declaration",
     "build:declaration": "tsc --project tsconfig.types.json",
   },

@@ -3,7 +3,6 @@
   "compilerOptions": {
     "composite": true,
     "incremental": true,
-    "declaration": true,
     "paths": {
       "@wc-rask/core": ["./packages/core/src"],
       "@wc-rask/web": ["./packages/web/src"],
