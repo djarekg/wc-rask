@@ -1,15 +1,14 @@
 {
-  "extends": ["../../tsconfig.base.json", "../../tsconfig.lit.json"],
+  "extends": "../../tsconfig.types.json",
   "compilerOptions": {
     "rootDir": ".",
     "baseUrl": "src",
+    "outDir": "dist",
     "paths": {
-      "@wc-rask/core/*": ["../../packages/core/src/*"],
       "@wc-rask/web/*": ["../../packages/web/src/*"],
     },
     "types": ["lit", "@wc-rask/web/module"],
   },
   "include": ["src/**/*"],
   "exclude": ["dist"],
-  "references": [{ "path": "../../packages/core" }, { "path": "../../packages/web" }],
 }

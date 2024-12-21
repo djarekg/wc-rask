@@ -19,23 +19,25 @@
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
-      "default": "./dist/index.js",
+      "@wc-rask/core": "./src/index.ts",
+      "import": "./dist/index.js",
       "source": "./dist/index.js.map",
       "types": "./dist/index.d.ts",
     },
-    "./validation": "./dist/validation/index.js",
+    "./*": {
+      "@wc-rask/core": "./src/*.ts",
+      "import": "./dist/*.js",
+    },
+    "./validation/*": "./dist/validation/*",
     "./package.json": "./package.json",
   },
-  "files": [
-    "dist/**/*.js",
-    "dist/**/*.css",
-    "dist/**/*.map",
-    "dist/**/*.d.ts",
-    "dist/**/*.d.ts.map",
-  ],
+  "files": ["dist/**/*.{js,js.map,ts,d.ts,css,css.map}", "README.md", "!dist/*.tsbuildinfo"],
   "scripts": {
-    "build": "bun build src/index.ts --packages external --sourcemap=linked --experimentalCss --outdir dist --splitting --packages external --external lit --target browser --root ./src",
+    "build": "bun build src/index.ts --packages external --sourcemap=linked --experimentalCss --outdir dist --splitting --packages external --target browser --root ./src",
     "postbuild": "bun run build:declaration",
     "build:declaration": "tsc --project tsconfig.types.json",
+  },
+  "peerDependencies": {
+    "typescript": "^5",
   },
 }

@@ -10,7 +10,7 @@ const buildConfigBase: Omit<BuildConfig, 'entrypoints'> = {
   // external: ['lit', '@lit-labs/router'],
 };
 
-const projectsPaths = ['packages/core', 'packages/web', 'apps/demo'];
+const projectsPaths = ['packages/components', 'packages/core', 'packages/web', 'apps/demo'];
 
 const builds = projectsPaths.map(path =>
   Bun.build({

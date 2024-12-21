@@ -4,6 +4,7 @@ import { $ } from 'bun';
 import demoPackageJSON from '../apps/demo/package.json';
 import packageJSON from '../package.json';
 import corePackageJSON from '../packages/core/package.json';
+import componentsPackageJSON from '../packages/core/package.json';
 import webPackageJSON from '../packages/web/package.json';
 
 const oldVersion = packageJSON.packageManager.replace('bun@', '');
@@ -14,11 +15,13 @@ const version = (await $`bun --version`.text()).trim();
 
 packageJSON.packageManager =
   corePackageJSON.packageManager =
+  componentsPackageJSON.packageManager =
   webPackageJSON.packageManager =
   demoPackageJSON.packageManager =
     `bun@${version}`;
 packageJSON.engines =
   corePackageJSON.engines =
+  componentsPackageJSON.engines =
   webPackageJSON.engines =
   demoPackageJSON.engines =
     {
@@ -30,6 +33,10 @@ fs.writeFileSync(join(import.meta.dir, '..', 'package.json'), JSON.stringify(pac
 fs.writeFileSync(
   join(import.meta.dir, '..', 'packages', 'core', 'package.json'),
   JSON.stringify(corePackageJSON, null, 2),
+);
+fs.writeFileSync(
+  join(import.meta.dir, '..', 'packages', 'core', 'package.json'),
+  JSON.stringify(componentsPackageJSON, null, 2),
 );
 fs.writeFileSync(
   join(import.meta.dir, '..', 'packages', 'web', 'package.json'),

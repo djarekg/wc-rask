@@ -1,16 +1,20 @@
 {
   "compilerOptions": {
+    "disableSourceOfProjectReferenceRedirect": true,
     "composite": true,
     "incremental": true,
     "paths": {
-      "@wc-rask/core": ["./packages/core/src"],
-      "@wc-rask/web": ["./packages/web/src"],
+      "@wc-rask/core/*": ["./packages/core/src/*"],
+      "@wc-rask/web/*": ["./packages/web/src/*"],
     },
   },
   "files": [],
   "include": [],
-  "exclude": ["node_modules", "dist"],
+  "exclude": ["node_modules", "scripts", "docs"],
   "references": [
+    {
+      "path": "./packages/components",
+    },
     {
       "path": "./packages/core",
     },

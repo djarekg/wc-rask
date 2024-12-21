@@ -2,9 +2,12 @@
   "compilerOptions": {
     "allowArbitraryExtensions": true,
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
-    "experimentalDecorators": true,
     "esModuleInterop": true,
     "resolveJsonModule": true,
+		"emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false,
+    "declaration": true,
     // "strictPropertyInitialization": false
     /*
       Even though this is set in tsconfig.lit.json, unless it is set
@@ -18,4 +21,5 @@
   },
   "files": [],
   "include": [],
+  "exclude": []
 }

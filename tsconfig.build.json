@@ -4,8 +4,8 @@
     "composite": true,
     "incremental": true,
     "paths": {
-      "@wc-rask/core": ["./packages/core/src"],
-      "@wc-rask/web": ["./packages/web/src"],
+      "@wc-rask/core/*": ["./packages/core/src/*"],
+      "@wc-rask/web/*": ["./packages/web/src/*"],
     },
   },
   "files": [],
@@ -13,13 +13,16 @@
   "exclude": ["node_modules", "dist"],
   "references": [
     {
-      "path": "./apps/demo",
+      "path": "./packages/components",
     },
     {
       "path": "./packages/core",
     },
     {
       "path": "./packages/web",
+    },
+    {
+      "path": "./apps/demo",
     },
   ],
 }

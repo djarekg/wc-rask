@@ -1,10 +1,9 @@
 {
   "version": 3,
-  "sources": ["../src/validation/assert.ts"],
+  "sources": [],
   "sourcesContent": [
-    "export function isEmpty(value: unknown): boolean {\n  return (\n    isNull(value) ||\n    (Array.isArray(value) && value.length === 0) ||\n    (typeof value === 'object' && !!value && Object.keys(value).length === 0) ||\n    (typeof value === 'string' && value?.length === 0)\n  );\n}\n\nexport function notEmpty(value: unknown): boolean {\n  return !isEmpty(value);\n}\n\nexport function isNull(value: unknown): boolean {\n  return value === null || typeof value === 'undefined';\n}\n\nexport function notNull(value: unknown): boolean {\n  return !isNull(value);\n}\n\nexport function throwIfEmpty(value: unknown, message: string): void {\n  if (isEmpty(value)) {\n    // BUG: fix logging error\n    // console.error('throwIfEmpty', arguments);\n    throw new Error(message, { cause: { code: 'IsEmpty' } });\n  }\n}\n\nexport function throwIfNull(value: unknown, message: string): void {\n  if (isNull(value)) {\n    // BUG: fix logging error\n    // console.error('throwIfEmpty', arguments);\n    throw new Error(message, { cause: { code: 'IsNull' } });\n  }\n}\n"
   ],
-  "mappings": ";AAAO,SAAS,OAAO,CAAC,OAAyB;AAC/C,SACE,OAAO,KAAK,KACX,MAAM,QAAQ,KAAK,KAAK,MAAM,WAAW,YAClC,UAAU,cAAc,SAAS,OAAO,KAAK,KAAK,EAAE,WAAW,YAC/D,UAAU,YAAY,OAAO,WAAW;AAAA;AAI7C,SAAS,QAAQ,CAAC,OAAyB;AAChD,UAAQ,QAAQ,KAAK;AAAA;AAGhB,SAAS,MAAM,CAAC,OAAyB;AAC9C,SAAO,UAAU,eAAe,UAAU;AAAA;AAGrC,SAAS,OAAO,CAAC,OAAyB;AAC/C,UAAQ,OAAO,KAAK;AAAA;AAGf,SAAS,YAAY,CAAC,OAAgB,SAAuB;AAClE,MAAI,QAAQ,KAAK,GAAG;AAGlB,UAAM,IAAI,MAAM,SAAS,EAAE,OAAO,EAAE,MAAM,UAAU,EAAE,CAAC;AAAA,EACzD;AAAA;AAGK,SAAS,WAAW,CAAC,OAAgB,SAAuB;AACjE,MAAI,OAAO,KAAK,GAAG;AAGjB,UAAM,IAAI,MAAM,SAAS,EAAE,OAAO,EAAE,MAAM,SAAS,EAAE,CAAC;AAAA,EACxD;AAAA;",
-  "debugId": "C54263A62E064A1D64756E2164756E21",
+  "mappings": "",
+  "debugId": "63B34CA22B19AD5C64756E2164756E21",
   "names": []
 }

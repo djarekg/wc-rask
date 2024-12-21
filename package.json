@@ -16,7 +16,8 @@
     "bun": ">=1.1.41"
   },
   "scripts": {
-    "fresh": "rm -rf dist node_modules package-lock.json bun.lockb && bun i",
+    "prefresh": "bun run --cwd packages/core --cwd packages/web --cwd apps/demo rm -rf dist",
+    "fresh": "rm -rf node_modules package-lock.json bun.lockb && bun i",
     "build": "bun run --filter '*' build",
     "//build": "bun run scripts/build.ts",
     "format": "bun run biome format --write .",
@@ -27,13 +28,17 @@
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "@jspm/import-map": "^1.1.0",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
     "@types/bun": "^1.1.14",
-    "bun-plugin-dts": "^0.3.0"
+    "bun-plugin-dts": "^0.3.0",
+    "jest": "^29.7.0"
   },
   "dependencies": {},
   "peerDependencies": {
-    "typescript": "^5.7.2",
-    "lit": "^3.2.1"
+    "typescript": "^5",
+    "lit": "^3",
+    "signal-polyfill": "^0.2.0"
   },
   "overrides": {
     "bun-plugin-dts": "~0.3.0",

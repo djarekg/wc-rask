@@ -4,5 +4,8 @@ logLevel = "debug"
 shell = "bun"
 bun = true
 
+[install]
+auto = "auto"
+
 [loader]
 ".html" = "text"
