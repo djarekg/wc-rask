@@ -9,8 +9,6 @@
     },
   },
   "files": [],
-  "include": [],
-  "exclude": ["node_modules", "scripts", "docs"],
   "references": [
     {
       "path": "./packages/components",

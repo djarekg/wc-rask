@@ -1,7 +1,7 @@
 {
   "name": "@wc-rask/web",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "author": {
     "name": "Dustin Griffith",
   },
@@ -20,15 +20,20 @@
   "exports": {
     ".": {
       "@wc-rask/web": "./src/index.ts",
-      "import": "./dist/index.js",
+      "browser": "./dist/index.js",
+      "default": "./src/index.ts",
       "source": "./dist/index.js.map",
       "types": "./dist/index.d.ts",
     },
     "./*": {
       "@wc-rask/web": "./src/*.ts",
-      "import": "./dist/*.js",
+      "browser": "./dist/*.js",
+      "default": "./src/*.ts",
     },
-    "./theme/index.js": "./dist/theme/index.js",
+    "./theme": {
+      "browser": "./dist/theme/index.js",
+      "default": "./src/theme/index.ts",
+    },
     "./module": {
       "types": "./src/types/module.d.ts",
     },

@@ -17,7 +17,7 @@
   },
   "scripts": {
     "prefresh": "bun run --cwd packages/core --cwd packages/web --cwd apps/demo rm -rf dist",
-    "fresh": "rm -rf node_modules package-lock.json bun.lockb && bun i",
+    "fresh": "rm -rf node_modules package-lock.json bun.lockb && echo 'installing' && bun i --silent",
     "build": "bun run --filter '*' build",
     "//build": "bun run scripts/build.ts",
     "format": "bun run biome format --write .",

@@ -1,7 +1,7 @@
 {
   "name": "@wc-rask/core",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "author": {
     "name": "Dustin Griffith",
   },
@@ -14,19 +14,21 @@
   "engines": {
     "bun": ">=1.1.41",
   },
-  "main": "dist/index.js",
-  "module": "dist/index.js",
+  "type": "module",
+  "module": "src/index.ts",
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
       "@wc-rask/core": "./src/index.ts",
-      "import": "./dist/index.js",
+      "browser": "./dist/index.js",
+      "default": "./src/index.ts",
       "source": "./dist/index.js.map",
       "types": "./dist/index.d.ts",
     },
     "./*": {
       "@wc-rask/core": "./src/*.ts",
-      "import": "./dist/*.js",
+      "browser": "./dist/*.js",
+      "default": "./src/*.ts",
     },
     "./validation/*": "./dist/validation/*",
     "./package.json": "./package.json",

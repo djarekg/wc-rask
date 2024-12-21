@@ -2,14 +2,12 @@
   "extends": ["../../tsconfig.base.json", "../../tsconfig.lit.json"],
   "compilerOptions": {
     "rootDir": ".",
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
     "baseUrl": "src",
     "paths": {
       "@wc-rask/web/*": ["../../packages/web/src/*"],
     },
     "types": ["lit", "@wc-rask/web/module", "@wc-rask/web/events", "signal-polyfill"],
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "config.ts"],
   "exclude": ["dist"],
 }

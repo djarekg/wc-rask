@@ -6,10 +6,13 @@
     "composite": true,
     "incremental": true,
     "isolatedDeclarations": true,
+    "isolatedModules": true,
     "emitDeclarationOnly": true,
     "declarationMap": true,
     "declaration": true,
+    "skipLibCheck": true,
     "noEmit": true,
+    "sourceMap": true,
     "types": [],
   },
   "references": [
@@ -19,6 +22,4 @@
     { "path": "./apps/demo" },
   ],
   "files": [],
-  "include": [],
-  "exclude": [],
 }

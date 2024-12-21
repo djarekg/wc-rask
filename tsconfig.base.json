@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    // "disableSourceOfProjectReferenceRedirect": true,
+    "disableSourceOfProjectReferenceRedirect": true,
     "outDir": "${configDir}/dist",
 
     // Enable latest features
@@ -32,8 +32,8 @@
 
     // Some stricter flags (disabled by default)
     "noImplicitAny": true,
-    // "noUnusedLocals": true,
-    "noUnusedParameters": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
     "strictPropertyInitialization": false,
     "noImplicitOverride": false,
     "noImplicitReturns": true,
@@ -41,11 +41,9 @@
     "noUncheckedIndexedAccess": false,
     "noPropertyAccessFromIndexSignature": false,
     "strictNullChecks": false,
-    "strictFunctionTypes": false,
+    "strictFunctionTypes": true,
     // "strictPropertyInitialization": true,
     "skipLibCheck": true,
   },
   "files": [],
-  "include": [],
-  "exclude": []
 }

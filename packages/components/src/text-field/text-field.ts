@@ -36,7 +36,9 @@ export type InvalidTextFieldType =
   | 'reset'
   | 'submit';
 
-export class TextField extends SignalWatcher(LitElement) {
+const BaseClass: typeof LitElement = SignalWatcher(LitElement);
+
+export class TextField extends BaseClass {
   static override styles: CSSResult = css;
 
   /**
@@ -175,6 +177,42 @@ export class TextField extends SignalWatcher(LitElement) {
   #ignoreNextValueChange = false;
 
   accessor #value = new Signal.State('');
+
+  constructor() {
+    super();
+    // this.addController(new FormController(this));
+    this.addEventListener('click', this.focus);
+    this.addEventListener('focusin', this.#handleFocusin);
+    this.addEventListener('focusout', this.#handleFocusout);
+  }
+
+  /**
+   * Checks the text field's native validation and returns whether or not the
+   * element is valid.
+   *
+   * If invalid, this method will dispatch the `invalid` event.
+   *
+   * https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement/checkValidity
+   *
+   * @return true if the text field is valid, or false if not.
+   */
+  checkValidity(): boolean {
+    const { valid } = this.#checkValidityAndDispatch();
+    return valid;
+  }
+
+  /**
+   * Focuses the text field's input text.
+   */
+  override focus(): void {
+    if (this.disabled || this.matches(':focus-within')) {
+      // Don't shift focus from an element within the text field, like an icon
+      // button, to the input when focus is requested.
+      return;
+    }
+
+    this.#getInput().focus();
+  }
 
   reportValidity(): boolean {
     const { valid, canceled } = this.#checkValidityAndDispatch();
