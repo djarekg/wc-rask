@@ -2,8 +2,22 @@
   "name": "@wc-rask/demo",
   "version": "1.0.0",
   "private": true,
-  "module": "src/index.ts",
+  "author": {
+    "name": "Dustin Griffith",
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/djarekg/wc-rask",
+  },
+  "license": "MIT",
+  "packageManager": "bun@1.1.41",
+  "engines": {
+    "bun": ">=1.1.41",
+  },
   "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "bun build ./src/index.html --packages external --sourcemap=linked --experimentalCss --outdir ./dist --external lit --target browser --plugins bun-plugin-html --root ./src --pubilc-path ./public",
     "postbuild": "bun run build:declaration",

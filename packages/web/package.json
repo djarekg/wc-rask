@@ -1,6 +1,23 @@
 {
   "name": "@wc-rask/web",
   "version": "1.0.0",
+  "private": true,
+  "author": {
+    "name": "Dustin Griffith",
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/djarekg/wc-rask",
+  },
+  "license": "MIT",
+  "packageManager": "bun@1.1.41",
+  "engines": {
+    "bun": ">=1.1.41",
+  },
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
   "exports": {
     "./dist/css/*": "./dist/css/*",
     ".": {
@@ -19,23 +36,15 @@
     "./package.json": "./package.json",
   },
   "files": [
-    "src",
     "dist/**/*.js",
     "dist/**/*.css",
     "dist/**/*.map",
     "dist/**/*.d.ts",
     "dist/**/*.d.ts.map",
   ],
-  "private": true,
   "scripts": {
-    "build": "bun build ./src/index.ts --no-bundle --packages external --sourcemap=linked --experimentalCss --outdir ./dist --external lit --target browser --plugins bun-plugin-dts --root ./src ---splitting",
+    "build": "bun build src/index.ts --packages external --sourcemap=linked --experimentalCss --outdir dist --splitting --packages external --external lit --target browser --root ./src",
     "postbuild": "bun run build:declaration",
     "build:declaration": "tsc --project tsconfig.types.json",
-  },
-  "type": "module",
-  "types": "dist/index.d.ts",
-  "devDependencies": {
-    "bun-plugin-dts": "^0.3.0",
-    "bun-plugin-html": "^2.2.4",
   },
 }

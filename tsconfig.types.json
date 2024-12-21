@@ -7,14 +7,17 @@
     "incremental": true,
     "isolatedDeclarations": true,
     "emitDeclarationOnly": true,
+    "declarationMap": true,
     "declaration": true,
     "noEmit": true,
+    "types": [],
   },
   "references": [
     { "path": "./packages/core" },
     { "path": "./packages/web" },
     { "path": "./apps/demo" },
   ],
+  "files": [],
   "include": [],
   "exclude": [],
 }

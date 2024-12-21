@@ -1,11 +1,11 @@
 {
   "extends": ["../../tsconfig.base.json", "../../tsconfig.lit.json"],
   "compilerOptions": {
-    "noEmit": false,
+    // "noEmit": false,
     "rootDir": ".",
     "baseUrl": "src",
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "plugins/**/*.ts"],
   "exclude": ["dist"],
   "references": [],
 }

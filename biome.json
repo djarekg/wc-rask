@@ -8,12 +8,7 @@
     "defaultBranch": "main"
   },
   "files": {
-    "include": [
-      "./*.json",
-      "./*.md",
-      "apps/**/*.{js,ts,json,css,html,md}",
-      "packages/**/*.{js,ts,json,css,html,md}"
-    ],
+    "include": ["apps", "packages", "scripts"],
     "ignoreUnknown": false,
     "ignore": ["dist", "node_modules"]
   },

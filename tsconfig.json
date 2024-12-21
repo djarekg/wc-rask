@@ -12,13 +12,13 @@
   "exclude": ["node_modules", "dist"],
   "references": [
     {
-      "path": "./apps/demo",
-    },
-    {
       "path": "./packages/core",
     },
     {
       "path": "./packages/web",
+    },
+    {
+      "path": "./apps/demo",
     },
   ],
 }

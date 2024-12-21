@@ -1,13 +1,15 @@
 {
   "extends": ["../../tsconfig.base.json", "../../tsconfig.lit.json"],
   "compilerOptions": {
+    // "noEmit": true,
     "rootDir": ".",
-    "baseUrl": "./src",
+    "baseUrl": "src",
     "paths": {
-      "@wc-rask/core/*": ["../../packages/core/*"],
-      "@wc-rask/web/*": ["../../packages/web/*"],
+      "@wc-rask/core/*": ["../../packages/core/src/*"],
+      "@wc-rask/web/*": ["../../packages/web/src/*"],
     },
     "types": ["@wc-rask/web/module"],
+    "typeRoots": ["@/node_modules/@types", "@/node_modules/@lit-labs/router/index.d.ts"],
   },
   "include": ["src/**/*"],
   "exclude": ["dist"],

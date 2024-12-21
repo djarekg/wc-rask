@@ -1,7 +1,7 @@
 import type { RouteConfig } from '@lit-labs/router';
 
-export default [
+export const routes: RouteConfig[] = [
   {
     name: 'home',
   },
-] satisfies RouteConfig[];
+];

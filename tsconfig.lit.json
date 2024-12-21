@@ -2,7 +2,7 @@
   "compilerOptions": {
     "allowArbitraryExtensions": true,
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
-    "experimentalDecorators": false,
+    "experimentalDecorators": true,
     "esModuleInterop": true,
     "resolveJsonModule": true,
     // "strictPropertyInitialization": false
@@ -12,6 +12,9 @@
     */
     // "useDefineForClassFields": false,
     "types": ["lit"],
+    "paths": {
+      "@/node_modules/*": ["node_modules/*"],
+    }
   },
   "files": [],
   "include": [],

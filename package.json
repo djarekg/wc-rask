@@ -11,18 +11,24 @@
   },
   "license": "MIT",
   "type": "module",
+  "packageManager": "bun@1.1.41",
+  "engines": {
+    "bun": ">=1.1.41"
+  },
   "scripts": {
     "fresh": "rm -rf dist node_modules package-lock.json bun.lockb && bun i",
     "build": "bun run --filter '*' build",
-    "check": "biome check --write --changed --staged",
-    "build:ts": "tsc --build --emitDeclarationOnly --verbose",
+    "//build": "bun run scripts/build.ts",
+    "format": "bun run biome format --write .",
+    "lint": "biome check --write --changed --staged",
     "typecheck": "tsc --noEmit",
     "ci": "biome ci"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "@jspm/import-map": "^1.1.0",
-    "@types/bun": "^1.1.14"
+    "@types/bun": "^1.1.14",
+    "bun-plugin-dts": "^0.3.0"
   },
   "dependencies": {},
   "peerDependencies": {
