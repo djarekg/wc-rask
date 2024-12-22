@@ -1,7 +1,9 @@
 {
   "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
   "organizeImports": {
-    "enabled": true
+    "enabled": true,
+    "include": ["**/*.ts"],
+    "ignore": ["dist", "node_modules"]
   },
   "vcs": {
     "enabled": true,
@@ -10,7 +12,7 @@
     "defaultBranch": "main"
   },
   "files": {
-    "include": [".", "scripts"],
+    "include": ["**/*"],
     "ignoreUnknown": false,
     "ignore": ["dist", "node_modules"]
   },

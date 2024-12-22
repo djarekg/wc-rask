@@ -2,52 +2,44 @@
   "name": "@wc-rask/components",
   "version": "1.0.0",
   "private": false,
+  "license": "MIT",
+  "packageManager": "bun@1.1.41",
   "author": {
-    "name": "Dustin Griffith",
+    "name": "Dustin Griffith"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/djarekg/wc-rask",
+    "url": "https://github.com/djarekg/wc-rask"
   },
-  "license": "MIT",
-  "packageManager": "bun@1.1.41",
   "engines": {
-    "bun": ">=1.1.41",
+    "bun": ">=1.1.41"
   },
   "type": "module",
-  "module": "src/index.ts",
-  "types": "dist/index.d.ts",
   "exports": {
     "./*": {
       "@wc-rask/components": "./src/**/*.ts",
-      "browser": "./dist/**/*.js",
-      "default": "./src/**/*.ts",
-      "types": "./dist/**/*.d.ts",
+      "import": "./dist/**/*.js",
+      "types": "./dist/**/*.d.ts"
     },
     "./button": {
-      "browser": "./dist/button/index.js",
-      "default": "./src/button/button.ts",
+      "import": "./dist/button/index.js",
+      "types": "./dist/button/button.d.ts"
     },
     "./notification": {
-      "browser": "./dist/notification/index.js",
-      "default": "./src/notification/notification.ts",
+      "import": "./dist/notification/index.js",
+      "types": "./dist/notification/notification.d.ts"
     },
     "./text-field": {
-      "browser": "./dist/text-field/index.js",
-      "default": "./src/text-field/text-field.ts",
+      "import": "./dist/text-field/index.js",
+      "types": "./src/text-field/text-field.d.ts"
     },
-    "./package.json": "./package.json",
+    "./package.json": "./package.json"
   },
-  "files": ["dist/**/*.{js,js.map,ts,d.ts,css,css.map}", "README.md", "!dist/*.tsbuildinfo"],
   "scripts": {
-    "prebuild": "rm -rf dist",
-    "build": "jspm build src/**/*.ts --output dist",
-    "//build": "bun build --entrypoints src/button/button.ts src/notification/notification.ts --packages external --sourcemap=linked --experimentalCss --outdir dist --splitting --packages external --target browser --root src",
+    "prebuild": "bunx rimraf dist",
+    "build": "jspm build --config jspm.config.mjs",
     "postbuild": "bun run build:declaration",
-    "build:declaration": "tsc --project tsconfig.types.json",
-  },
-  "peerDependencies": {
-    "typescript": "^5",
+    "build:declaration": "tsc --project tsconfig.types.json"
   },
   "dependencies": {
     "@lit-labs/signals": "^0.1.1",
@@ -55,6 +47,12 @@
     "@wc-rask/web": "workspace:*",
     "lit": "^3.2.1",
     "signal-polyfill": "^0.2.1",
-    "signal-utils": "^0.21.0",
+    "signal-utils": "^0.21.0"
   },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4"
+  }
 }

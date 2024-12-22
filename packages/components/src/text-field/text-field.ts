@@ -431,7 +431,7 @@ export class TextField extends BaseClass {
       this.scheduleUpdate();
     }
 
-    return this.input!;
+    return this.input;
   }
 
   /**

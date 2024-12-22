@@ -1,5 +1,5 @@
 {
-  "extends": ["./tsconfig.base.json", "./tsconfig.lit.json"],
+  // "extends": ["./tsconfig.base.json", "./tsconfig.lit.json"],
   "compilerOptions": {
     "outDir": "${configDir}/dist",
     "allowJs": false,

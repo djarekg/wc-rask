@@ -2,7 +2,7 @@
   "extends": "../tsconfig.base.json",
   "compilerOptions": {
     "resolveJsonModule": true,
+    "esModuleInterop": true,
   },
-  "include": ["*.ts"],
-  "exclude": ["node_modules"],
+  "files": ["build.ts", "upgrade-bun.ts"],
 }

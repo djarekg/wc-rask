@@ -3,34 +3,35 @@
   "version": "1.0.0",
   "private": false,
   "author": {
-    "name": "Dustin Griffith",
+    "name": "Dustin Griffith"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/djarekg/wc-rask",
+    "url": "https://github.com/djarekg/wc-rask"
   },
   "license": "MIT",
   "packageManager": "bun@1.1.41",
   "engines": {
-    "bun": ">=1.1.41",
+    "bun": ">=1.1.41"
   },
   "type": "module",
-  "main": "dist/index.js",
-  "module": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "exports": {
+    "./package.json": "./package.json"
+  },
   "scripts": {
     "clean": "rm -rf dist",
     "build": "bun build ./src/index.html --packages external --sourcemap=linked --experimentalCss --outdir ./dist --external lit --target browser --plugins bun-plugin-html --root ./src --pubilc-path ./public",
     "postbuild": "bun run build:declaration",
-    "build:declaration": "tsc --project tsconfig.types.json",
+    "build:declaration": "tsc --project tsconfig.types.json"
   },
   "dependencies": {
     "@lit-labs/router": "^0.1.3",
     "@wc-rask/core": "workspace:*",
     "@wc-rask/web": "workspace:*",
-    "lit": "^3.2.1",
+    "lit": "^3.2.1"
   },
   "devDependencies": {
-    "bun-plugin-html": "^2.2.4",
-  },
+    "@biomejs/biome": "^1.9.4",
+    "bun-plugin-html": "^2.2.4"
+  }
 }

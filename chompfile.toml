@@ -1,0 +1,41 @@
+version = 0.1
+
+[[task]]
+name = '//build'
+run = '''bun run --filter '*' build'''
+
+[[task]]
+name = 'build'
+run = 'bun run scripts/build.ts'
+
+[[task]]
+name = 'ci'
+run = 'biome ci'
+
+[[task]]
+name = 'docs'
+run = 'typedoc'
+
+[[task]]
+name = 'docs-all'
+run = 'bun run docs --filter --if-present'
+
+[[task]]
+name = 'format'
+run = '''bun run --filter '*' biome format --write .'''
+
+[[task]]
+name = 'fresh'
+run = '''rm -rf node_modules package-lock.json bun.lockb && echo 'installing' && bun i --silent'''
+
+[[task]]
+name = 'lint'
+run = '''bun run --filter '*' biome check --write --changed --staged'''
+
+[[task]]
+name = 'prefresh'
+run = 'bun run --cwd packages/core --cwd packages/web --cwd apps/demo rm -rf dist'
+
+[[task]]
+name = 'typecheck'
+run = 'tsc --noEmit'

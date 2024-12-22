@@ -10,7 +10,7 @@
     "defaultBranch": "main"
   },
   "files": {
-    "include": [".", "scripts"],
+    "include": ["**/*"],
     "ignoreUnknown": false,
     "ignore": ["dist", "node_modules"]
   },

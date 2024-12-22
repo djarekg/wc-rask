@@ -3,43 +3,49 @@
   "version": "1.0.0",
   "private": false,
   "author": {
-    "name": "Dustin Griffith",
+    "name": "Dustin Griffith"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/djarekg/wc-rask",
+    "url": "https://github.com/djarekg/wc-rask"
   },
   "license": "MIT",
   "packageManager": "bun@1.1.41",
   "engines": {
-    "bun": ">=1.1.41",
+    "bun": ">=1.1.41"
   },
   "type": "module",
-  "module": "src/index.ts",
-  "types": "dist/index.d.ts",
+  "imports": {
+    "internal": {
+      "#/*": "./src/*"
+    }
+  },
   "exports": {
     ".": {
       "@wc-rask/core": "./src/index.ts",
       "browser": "./dist/index.js",
       "default": "./src/index.ts",
       "source": "./dist/index.js.map",
-      "types": "./dist/index.d.ts",
+      "types": "./dist/index.d.ts"
     },
     "./*": {
       "@wc-rask/core": "./src/*.ts",
       "browser": "./dist/*.js",
-      "default": "./src/*.ts",
+      "default": "./src/*.ts"
     },
     "./validation/*": "./dist/validation/*",
-    "./package.json": "./package.json",
+    "./package.json": "./package.json"
   },
-  "files": ["dist/**/*.{js,js.map,ts,d.ts,css,css.map}", "README.md", "!dist/*.tsbuildinfo"],
   "scripts": {
-    "build": "bun build src/index.ts --packages external --sourcemap=linked --experimentalCss --outdir dist --splitting --packages external --target browser --root ./src",
+    "prebuild": "bunx rimraf dist",
+    "build": "jspm build --config jspm.config.mjs",
     "postbuild": "bun run build:declaration",
-    "build:declaration": "tsc --project tsconfig.types.json",
+    "build:declaration": "tsc --project tsconfig.types.json"
   },
   "peerDependencies": {
-    "typescript": "^5",
+    "typescript": "^5"
   },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4"
+  }
 }

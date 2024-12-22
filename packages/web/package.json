@@ -3,54 +3,50 @@
   "version": "1.0.0",
   "private": false,
   "author": {
-    "name": "Dustin Griffith",
+    "name": "Dustin Griffith"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/djarekg/wc-rask",
+    "url": "https://github.com/djarekg/wc-rask"
   },
   "license": "MIT",
   "packageManager": "bun@1.1.41",
   "engines": {
-    "bun": ">=1.1.41",
+    "bun": ">=1.1.41"
   },
   "type": "module",
-  "module": "src/index.ts",
-  "types": "dist/index.d.ts",
   "exports": {
     ".": {
       "@wc-rask/web": "./src/index.ts",
-      "browser": "./dist/index.js",
-      "default": "./src/index.ts",
-      "source": "./dist/index.js.map",
-      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "types": "./src/index.d.ts",
+      "default": "./dist/index.js.map",
     },
     "./*": {
       "@wc-rask/web": "./src/*.ts",
-      "browser": "./dist/*.js",
-      "default": "./src/*.ts",
-    },
-    "./theme": {
-      "browser": "./dist/theme/index.js",
-      "default": "./src/theme/index.ts",
+      "import": "./dist/*.js",
+      "types": "./src/*.d.ts"
     },
     "./module": {
-      "types": "./src/types/module.d.ts",
+      "types": "./src/types/module.d.ts"
     },
     "./src/module/*": "./src/module/*",
     "./events": {
-      "types": "./src/types/events.d.ts",
+      "types": "./src/types/events.d.ts"
     },
     "./src/events/*": "./src/events/*",
-    "./package.json": "./package.json",
+    "./package.json": "./package.json"
   },
-  "files": ["dist/**/*.{js,js.map,ts,d.ts,css,css.map}", "README.md", "!dist/*.tsbuildinfo"],
   "scripts": {
-    "build": "bun build src/index.ts --packages external --sourcemap=linked --experimentalCss --outdir dist --splitting --packages external --target browser --root ./src",
+    "prebuild": "bunx rimraf dist",
+    "build": "jspm build --config jspm.config.mjs",
     "postbuild": "bun run build:declaration",
-    "build:declaration": "tsc --project tsconfig.types.json",
+    "build:declaration": "tsc --project tsconfig.types.json"
   },
   "peerDependencies": {
-    "typescript": "^5",
+    "typescript": "^5"
   },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4"
+  }
 }

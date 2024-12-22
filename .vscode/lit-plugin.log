@@ -1,0 +1,3185 @@
+[12/22/2024, 6:13:40 PM] [[33mDEBUG[0m] [
+  [32m'Updating the config'[39m,
+  {
+    strict: [33mfalse[39m,
+    rules: {
+      [32m'no-boolean-in-attribute-binding'[39m: [32m'error'[39m,
+      [32m'no-complex-attribute-binding'[39m: [32m'error'[39m,
+      [32m'no-expressionless-property-binding'[39m: [32m'error'[39m,
+      [32m'no-incompatible-property-type'[39m: [32m'warn'[39m,
+      [32m'no-incompatible-type-binding'[39m: [32m'error'[39m,
+      [32m'no-invalid-attribute-name'[39m: [32m'error'[39m,
+      [32m'no-invalid-boolean-binding'[39m: [32m'error'[39m,
+      [32m'no-invalid-css'[39m: [32m'warn'[39m,
+      [32m'no-invalid-directive-binding'[39m: [32m'error'[39m,
+      [32m'no-invalid-tag-name'[39m: [32m'error'[39m,
+      [32m'no-legacy-attribute'[39m: [32m'off'[39m,
+      [32m'no-missing-element-type-definition'[39m: [32m'off'[39m,
+      [32m'no-missing-import'[39m: [32m'off'[39m,
+      [32m'no-noncallable-event-binding'[39m: [32m'error'[39m,
+      [32m'no-nullable-attribute-binding'[39m: [32m'error'[39m,
+      [32m'no-property-visibility-mismatch'[39m: [32m'off'[39m,
+      [32m'no-unclosed-tag'[39m: [32m'warn'[39m,
+      [32m'no-unintended-mixed-binding'[39m: [32m'warn'[39m,
+      [32m'no-unknown-attribute'[39m: [32m'off'[39m,
+      [32m'no-unknown-event'[39m: [32m'off'[39m,
+      [32m'no-unknown-property'[39m: [32m'off'[39m,
+      [32m'no-unknown-slot'[39m: [32m'off'[39m,
+      [32m'no-unknown-tag-name'[39m: [32m'off'[39m
+    },
+    securitySystem: [32m'off'[39m,
+    disable: [33mfalse[39m,
+    logging: [32m'verbose'[39m,
+    cwd: [32m'/Users/ipw51/Documents/repos/griffidi/wc-rask/.vscode'[39m,
+    format: { disable: [33mfalse[39m },
+    dontSuggestConfigChanges: [33mfalse[39m,
+    dontShowSuggestions: [33mfalse[39m,
+    maxProjectImportDepth: [33mInfinity[39m,
+    maxNodeModuleImportDepth: [33m1[39m,
+    htmlTemplateTags: [ [32m'html'[39m, [32m'raw'[39m ],
+    cssTemplateTags: [ [32m'css'[39m ],
+    globalTags: [],
+    globalAttributes: [],
+    globalEvents: [],
+    customHtmlData: []
+  }
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'Starting ts-lit-plugin...'[39m ]
+[12/22/2024, 6:13:40 PM] [[33mDEBUG[0m] [ [32m'Lit Analyzer: 2.0.3'[39m ]
+[12/22/2024, 6:13:40 PM] [[33mDEBUG[0m] [ [32m'Web Component Analyzer: 2.0.0'[39m ]
+[12/22/2024, 6:13:40 PM] [[33mDEBUG[0m] [ [32m'Running Typescript: 5.7.2'[39m ]
+[12/22/2024, 6:13:40 PM] [[33mDEBUG[0m] [
+  [32m'DIRNAME: /Users/ipw51/.vscode-insiders/extensions/runem.lit-plugin-1.4.3/node_modules/ts-lit-plugin/lib'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (0ms): Result: '[39m,
+  [32m'undefined'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (187ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:13:40 PM] [[35mWARN[0m] [
+  [32m'[getProgram] took long time to complete! (187ms)'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Called'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'[getEditsForFileRename] Called'[39m ]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getEditsForFileRename] Finished (2ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'[getEditsForFileRename] Called'[39m ]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getEditsForFileRename] Finished (24ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'[getEditsForFileRename] Called'[39m ]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getEditsForFileRename] Finished (16ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (6ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'[getApplicableRefactors] Called'[39m ]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getApplicableRefactors] Finished (1ms): Result: '[39m,
+  [32m'Array: 13 length'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:13:40 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/packages/web/jspm.config.mjs (changed) (0ms total)'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 1 files (0 invalidated) in 3ms'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (13ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Called'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (2ms): Result: '[39m,
+  [32m'Array: 2 length'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (3ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (5ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (8ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Called'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (5ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'[getDefinitionAtPosition] Called'[39m ]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getDefinitionAtPosition] Finished (1ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'[findReferences] Called'[39m ]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[findReferences] Finished (2ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'[getQuickInfoAtPosition] Called'[39m ]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getQuickInfoAtPosition] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (3ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (13ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (8ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Called'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (18ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (2ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'[getApplicableRefactors] Called'[39m ]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getApplicableRefactors] Finished (2ms): Result: '[39m,
+  [32m'Array: 13 length'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'[getDefinitionAtPosition] Called'[39m ]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getDefinitionAtPosition] Finished (2ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'[findReferences] Called'[39m ]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[findReferences] Finished (4ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [ [32m'[getQuickInfoAtPosition] Called'[39m ]
+[12/22/2024, 6:13:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getQuickInfoAtPosition] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (2ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (4ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 2 length'[39m
+]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [ [32m'[getApplicableRefactors] Called'[39m ]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getApplicableRefactors] Finished (1ms): Result: '[39m,
+  [32m'Array: 13 length'[39m
+]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [ [32m'[getDefinitionAtPosition] Called'[39m ]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getDefinitionAtPosition] Finished (2ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [ [32m'[findReferences] Called'[39m ]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [
+  [32m'[findReferences] Finished (3ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [ [32m'[getQuickInfoAtPosition] Called'[39m ]
+[12/22/2024, 6:13:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getQuickInfoAtPosition] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (5ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (28ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [ [32m'[getApplicableRefactors] Called'[39m ]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getApplicableRefactors] Finished (9ms): Result: '[39m,
+  [32m'Array: 12 length'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [ [32m'[getEditsForFileRename] Called'[39m ]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getEditsForFileRename] Finished (5ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [ [32m'[getEditsForFileRename] Called'[39m ]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getEditsForFileRename] Finished (3ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [ [32m'[getEditsForFileRename] Called'[39m ]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getEditsForFileRename] Finished (15ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [ [32m'[getEditsForFileRename] Called'[39m ]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getEditsForFileRename] Finished (3ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [ [32m'[getEditsForFileRename] Called'[39m ]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getEditsForFileRename] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (23ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [ [32m'[getEditsForFileRename] Called'[39m ]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getEditsForFileRename] Finished (4ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [ [32m'[getEditsForFileRename] Called'[39m ]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getEditsForFileRename] Finished (9ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Called'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:05 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/packages/web/jspm.config.njs (changed) (0ms total)'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 1 files (0 invalidated) in 1ms'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 2 length'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (7ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Called'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (2ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [ [32m'[getApplicableRefactors] Called'[39m ]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getApplicableRefactors] Finished (0ms): Result: '[39m,
+  [32m'Array: 13 length'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (9ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Called'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 1ms'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (8ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (2ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Called'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [ [32m'[getApplicableRefactors] Called'[39m ]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getApplicableRefactors] Finished (0ms): Result: '[39m,
+  [32m'Array: 13 length'[39m
+]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [ [32m'[getDefinitionAtPosition] Called'[39m ]
+[12/22/2024, 6:14:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getDefinitionAtPosition] Finished (2ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:14:06 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:14:06 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:06 PM] [[36mVERBOSE[0m] [ [32m'[findReferences] Called'[39m ]
+[12/22/2024, 6:14:06 PM] [[36mVERBOSE[0m] [
+  [32m'[findReferences] Finished (3ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:14:06 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:14:06 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (2ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:06 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:14:06 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:06 PM] [[36mVERBOSE[0m] [ [32m'[getQuickInfoAtPosition] Called'[39m ]
+[12/22/2024, 6:14:06 PM] [[36mVERBOSE[0m] [
+  [32m'[getQuickInfoAtPosition] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (4ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 2 length'[39m
+]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [ [32m'[getApplicableRefactors] Called'[39m ]
+[12/22/2024, 6:14:08 PM] [[36mVERBOSE[0m] [
+  [32m'[getApplicableRefactors] Finished (0ms): Result: '[39m,
+  [32m'Array: 13 length'[39m
+]
+[12/22/2024, 6:14:09 PM] [[36mVERBOSE[0m] [ [32m'[getDefinitionAtPosition] Called'[39m ]
+[12/22/2024, 6:14:09 PM] [[36mVERBOSE[0m] [
+  [32m'[getDefinitionAtPosition] Finished (2ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:14:09 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:14:09 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:09 PM] [[36mVERBOSE[0m] [ [32m'[findReferences] Called'[39m ]
+[12/22/2024, 6:14:09 PM] [[36mVERBOSE[0m] [
+  [32m'[findReferences] Finished (3ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:14:09 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:14:09 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (2ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:09 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:14:09 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:09 PM] [[36mVERBOSE[0m] [ [32m'[getQuickInfoAtPosition] Called'[39m ]
+[12/22/2024, 6:14:09 PM] [[36mVERBOSE[0m] [
+  [32m'[getQuickInfoAtPosition] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (5ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (33ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [ [32m'[getApplicableRefactors] Called'[39m ]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getApplicableRefactors] Finished (3ms): Result: '[39m,
+  [32m'Array: 11 length'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (15ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (22ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Called'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Finished (4ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [ [32m'[getEditsForFileRename] Called'[39m ]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getEditsForFileRename] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [ [32m'[getEditsForFileRename] Called'[39m ]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getEditsForFileRename] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [ [32m'[getEditsForFileRename] Called'[39m ]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getEditsForFileRename] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [ [32m'[getEditsForFileRename] Called'[39m ]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getEditsForFileRename] Finished (2ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [ [32m'[getEditsForFileRename] Called'[39m ]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getEditsForFileRename] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [ [32m'[getEditsForFileRename] Called'[39m ]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getEditsForFileRename] Finished (3ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [ [32m'[getEditsForFileRename] Called'[39m ]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getEditsForFileRename] Finished (9ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (8ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/packages/web/jspm.config.mjs (changed) (0ms total)'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 1 files (0 invalidated) in 3ms'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (6ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (6ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Called'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [ [32m'[getApplicableRefactors] Called'[39m ]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getApplicableRefactors] Finished (0ms): Result: '[39m,
+  [32m'Array: 12 length'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (7ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Called'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (8ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [ [32m'[getDefinitionAtPosition] Called'[39m ]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getDefinitionAtPosition] Finished (1ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (2ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [ [32m'[findReferences] Called'[39m ]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[findReferences] Finished (4ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [ [32m'[getQuickInfoAtPosition] Called'[39m ]
+[12/22/2024, 6:14:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getQuickInfoAtPosition] Finished (11ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [ [32m'[getApplicableRefactors] Called'[39m ]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [
+  [32m'[getApplicableRefactors] Finished (0ms): Result: '[39m,
+  [32m'Array: 12 length'[39m
+]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (2ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (2ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [ [32m'[getDefinitionAtPosition] Called'[39m ]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [
+  [32m'[getDefinitionAtPosition] Finished (2ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [ [32m'[findReferences] Called'[39m ]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [
+  [32m'[findReferences] Finished (1ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [ [32m'[getQuickInfoAtPosition] Called'[39m ]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [
+  [32m'[getQuickInfoAtPosition] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Called'[39m
+]
+[12/22/2024, 6:14:17 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:24 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/22/2024, 6:14:24 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:24 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:14:24 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (24ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:24 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/22/2024, 6:14:24 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:24 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:14:24 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (11ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:24 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Called'[39m
+]
+[12/22/2024, 6:14:24 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Finished (3ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:24 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/22/2024, 6:14:24 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:24 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:14:24 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (13ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:24 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Called'[39m
+]
+[12/22/2024, 6:14:24 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:24 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/22/2024, 6:14:24 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (2ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:24 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:14:24 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (9ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:24 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Called'[39m
+]
+[12/22/2024, 6:14:24 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (10ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (2ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (3ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 1ms'[39m
+]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (12ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (3ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (6ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:26 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:40 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/22/2024, 6:14:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:40 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:14:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (30ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:40 PM] [[36mVERBOSE[0m] [ [32m'[getApplicableRefactors] Called'[39m ]
+[12/22/2024, 6:14:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getApplicableRefactors] Finished (3ms): Result: '[39m,
+  [32m'Array: 11 length'[39m
+]
+[12/22/2024, 6:14:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Called'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Finished (2ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [ [32m'[getApplicableRefactors] Called'[39m ]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'[getApplicableRefactors] Finished (2ms): Result: '[39m,
+  [32m'Array: 12 length'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 1ms'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (2ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (3ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (7ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Called'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (7ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (10ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Called'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (8ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (7ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Called'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Finished (8ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (12ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [ [32m'[getDefinitionAtPosition] Called'[39m ]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'[getDefinitionAtPosition] Finished (1ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (4ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [ [32m'[findReferences] Called'[39m ]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'[findReferences] Finished (3ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (2ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [ [32m'[getQuickInfoAtPosition] Called'[39m ]
+[12/22/2024, 6:14:41 PM] [[36mVERBOSE[0m] [
+  [32m'[getQuickInfoAtPosition] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:42 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Called'[39m
+]
+[12/22/2024, 6:14:42 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Finished (2ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (3ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (5ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (2ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:14:43 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:14:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Called'[39m
+]
+[12/22/2024, 6:14:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:48 PM] [[36mVERBOSE[0m] [ [32m'[getDefinitionAtPosition] Called'[39m ]
+[12/22/2024, 6:14:48 PM] [[36mVERBOSE[0m] [
+  [32m'[getDefinitionAtPosition] Finished (1ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:14:48 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:14:48 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:48 PM] [[36mVERBOSE[0m] [ [32m'[findReferences] Called'[39m ]
+[12/22/2024, 6:14:48 PM] [[36mVERBOSE[0m] [
+  [32m'[findReferences] Finished (1ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:14:48 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:14:48 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:48 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:14:48 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:14:48 PM] [[36mVERBOSE[0m] [ [32m'[getQuickInfoAtPosition] Called'[39m ]
+[12/22/2024, 6:14:48 PM] [[36mVERBOSE[0m] [
+  [32m'[getQuickInfoAtPosition] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:15:22 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/22/2024, 6:15:22 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (4ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:15:22 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:15:22 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (45ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:15:22 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Called'[39m
+]
+[12/22/2024, 6:15:22 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:15:22 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/22/2024, 6:15:22 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (2ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:15:22 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:15:22 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (22ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:15:22 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Called'[39m
+]
+[12/22/2024, 6:15:22 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:15:23 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/22/2024, 6:15:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (2ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:15:23 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:15:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (41ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (7ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (8ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (2ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:15:26 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [ [32m'[getApplicableRefactors] Called'[39m ]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [
+  [32m'[getApplicableRefactors] Finished (1ms): Result: '[39m,
+  [32m'Array: 11 length'[39m
+]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Called'[39m
+]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [ [32m'[getApplicableRefactors] Called'[39m ]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [
+  [32m'[getApplicableRefactors] Finished (1ms): Result: '[39m,
+  [32m'Array: 12 length'[39m
+]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (2ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (5ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [ [32m'[getDefinitionAtPosition] Called'[39m ]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [
+  [32m'[getDefinitionAtPosition] Finished (1ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [ [32m'[findReferences] Called'[39m ]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [
+  [32m'[findReferences] Finished (2ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [ [32m'[getQuickInfoAtPosition] Called'[39m ]
+[12/22/2024, 6:15:30 PM] [[36mVERBOSE[0m] [
+  [32m'[getQuickInfoAtPosition] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:16:44 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/22/2024, 6:16:44 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:16:44 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:16:44 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (20ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:16:44 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Called'[39m
+]
+[12/22/2024, 6:16:44 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:16:44 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/22/2024, 6:16:44 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (3ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:16:44 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:16:44 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (7ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:16:44 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Called'[39m
+]
+[12/22/2024, 6:16:44 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:16:44 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/22/2024, 6:16:44 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:16:44 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:16:44 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (93ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:16:44 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Called'[39m
+]
+[12/22/2024, 6:16:44 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:16:45 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/22/2024, 6:16:45 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:16:45 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:16:45 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (17ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:16:45 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Called'[39m
+]
+[12/22/2024, 6:16:45 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (4ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (3ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (16ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 1ms'[39m
+]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:16:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (8ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:16:49 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/22/2024, 6:16:49 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:16:49 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:16:49 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (9ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:16:49 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Called'[39m
+]
+[12/22/2024, 6:16:49 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:16:49 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/22/2024, 6:16:49 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:16:49 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:16:49 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (9ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:16:49 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Called'[39m
+]
+[12/22/2024, 6:16:49 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:16:49 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/22/2024, 6:16:49 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:16:49 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:16:49 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:16:49 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Called'[39m
+]
+[12/22/2024, 6:16:49 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:16:50 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/22/2024, 6:16:50 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (4ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:16:50 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:16:50 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (14ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:16:50 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Called'[39m
+]
+[12/22/2024, 6:16:50 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (4ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (2ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (2ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (2ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 1ms'[39m
+]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (2ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (10ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (2ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:16:53 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:10 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/22/2024, 6:17:10 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:17:10 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:17:10 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (8ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:17:10 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Called'[39m
+]
+[12/22/2024, 6:17:10 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:10 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/22/2024, 6:17:10 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:17:10 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:17:10 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (9ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:17:10 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Called'[39m
+]
+[12/22/2024, 6:17:10 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (3ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (2ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (8ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:12 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:14 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/22/2024, 6:17:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (2ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:17:14 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:17:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (41ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:17:14 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:14 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:14 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 1ms'[39m
+]
+[12/22/2024, 6:17:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (2ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:17:14 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:14 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:14 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:14 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:17:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:14 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (6ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:14 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:14 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:14 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:17:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:14 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:14 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:14 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:14 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:17:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:14 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:14 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:14 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:14 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:17:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (2ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:14 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:21 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/22/2024, 6:17:21 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (3ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:17:21 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:17:21 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (8ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:17:21 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Called'[39m
+]
+[12/22/2024, 6:17:21 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:21 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/22/2024, 6:17:21 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:17:21 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:17:21 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (8ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:17:21 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Called'[39m
+]
+[12/22/2024, 6:17:21 PM] [[36mVERBOSE[0m] [
+  [32m'[getCompilerOptionsDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:24 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:24 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (2ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:24 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:24 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:17:24 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:17:24 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:24 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:24 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:24 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:24 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:24 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:17:24 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:24 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:24 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:24 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:24 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:24 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:24 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:17:24 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (7ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:24 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:24 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:24 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:24 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:24 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:24 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:17:24 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (13ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:24 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:24 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (2ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:24 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:24 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:24 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:24 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:17:24 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:17:24 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:17:24 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:18:22 PM] [[36mVERBOSE[0m] [ [32m'[getApplicableRefactors] Called'[39m ]
+[12/22/2024, 6:18:22 PM] [[36mVERBOSE[0m] [
+  [32m'[getApplicableRefactors] Finished (1ms): Result: '[39m,
+  [32m'Array: 11 length'[39m
+]
+[12/22/2024, 6:18:22 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Called'[39m
+]
+[12/22/2024, 6:18:22 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Finished (8ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:22 PM] [[36mVERBOSE[0m] [ [32m'[getApplicableRefactors] Called'[39m ]
+[12/22/2024, 6:18:22 PM] [[36mVERBOSE[0m] [
+  [32m'[getApplicableRefactors] Finished (1ms): Result: '[39m,
+  [32m'Array: 11 length'[39m
+]
+[12/22/2024, 6:18:22 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Called'[39m
+]
+[12/22/2024, 6:18:22 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:22 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/22/2024, 6:18:22 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (10ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:22 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:18:22 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (59ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getApplicableRefactors] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getApplicableRefactors] Finished (1ms): Result: '[39m,
+  [32m'Array: 12 length'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Called'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Finished (9ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getApplicableRefactors] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getApplicableRefactors] Finished (1ms): Result: '[39m,
+  [32m'Array: 13 length'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Called'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Finished (8ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getApplicableRefactors] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getApplicableRefactors] Finished (1ms): Result: '[39m,
+  [32m'Array: 11 length'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Called'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Finished (7ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getDefinitionAtPosition] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getDefinitionAtPosition] Finished (0ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[findReferences] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[findReferences] Finished (1ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getQuickInfoAtPosition] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getQuickInfoAtPosition] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getDefinitionAtPosition] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getDefinitionAtPosition] Finished (1ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[findReferences] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[findReferences] Finished (1ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getQuickInfoAtPosition] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getQuickInfoAtPosition] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getDefinitionAtPosition] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getDefinitionAtPosition] Finished (0ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[findReferences] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[findReferences] Finished (0ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getQuickInfoAtPosition] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getQuickInfoAtPosition] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getDefinitionAtPosition] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getDefinitionAtPosition] Finished (0ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[findReferences] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[findReferences] Finished (0ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getQuickInfoAtPosition] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getQuickInfoAtPosition] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getDefinitionAtPosition] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getDefinitionAtPosition] Finished (0ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[findReferences] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[findReferences] Finished (1ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getQuickInfoAtPosition] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getQuickInfoAtPosition] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getDefinitionAtPosition] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getDefinitionAtPosition] Finished (0ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[findReferences] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[findReferences] Finished (0ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [ [32m'[getQuickInfoAtPosition] Called'[39m ]
+[12/22/2024, 6:18:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getQuickInfoAtPosition] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]

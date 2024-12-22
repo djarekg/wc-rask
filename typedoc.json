@@ -1,0 +1,9 @@
+// typedoc.json
+{
+  "name": "@wc-rask/workspace documentation",
+  "entryPointStrategy": "packages",
+  "entryPoints": ["packages/*","apps/*"],
+  "packageOptions": {
+      "entryPoints": ["src/index.ts"]
+  }
+}

@@ -39,7 +39,7 @@
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "noUncheckedIndexedAccess": false,
-    "noPropertyAccessFromIndexSignature": false,
+    "noPropertyAccessFromIndexSignature": true,
     "strictNullChecks": false,
     "strictFunctionTypes": true,
     // "strictPropertyInitialization": true,

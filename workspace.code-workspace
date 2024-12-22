@@ -30,18 +30,34 @@
     "biome.lsp.trace.server": "verbose",
     "biome.experimental.rename": true,
 
-    "editor.defaultFormatter": "biomejs.biome",
+    "typescript.inlayHints.parameterTypes.enabled": false,
+
+    "editor.lightbulb.enabled": "on",
+    "editor.defaultFormatter": "",
     "editor.formatOnSave": true,
     "editor.insertSpaces": true,
     "editor.codeActionsOnSave": {
-      "quickfix.biome": "explicit",
-      "source.organizeImports.biome": "explicit"
+      "source.organizeImports.biome": "explicit",
+      "source.fixAll.biome": "explicit",
+      "quickfix.biome": "explicit"
     },
+    "editor.codeActions.triggerOnFocusChange": true,
+    "editor.quickSuggestions": {
+      "other": "on",
+      "comments": "off",
+      "strings": "off"
+    },
+    "editor.suggestSelection": "first",
+    "editor.roundedSelection": true,
+    "workbench.commandPalette.experimental.suggestCommands": true,
     "editor.rulers": [100],
     "editor.experimentalEditContextEnabled": true,
     "editor.experimentalWhitespaceRendering": "font",
     // "editor.hover.enabled": false,
 
+    "javascript.format.semicolons": "insert",
+    "javascript.preferences.importModuleSpecifier": "shortest",
+    "javascript.preferences.importModuleSpecifierEnding": "auto",
     "javascript.suggest.completeJSDocs": true,
     "[javascript]": {
       "editor.defaultFormatter": "biomejs.biome"
@@ -49,11 +65,28 @@
     "[javascriptreact]": {
       "editor.defaultFormatter": "biomejs.biome"
     },
+
+    "typescript.preferences.includePackageJsonAutoImports": "on",
     "typescript.experimental.expandableHover": true,
     "typescript.tsdk": "node_modules/typescript/lib",
-    "typescript.tsserver.web.projectWideIntellisense.suppressSemanticErrors": false,
+    // "typescript.tsserver.web.projectWideIntellisense.suppressSemanticErrors": false,
+    "typescript.preferences.importModuleSpecifier": "shortest",
     "typescript.preferences.importModuleSpecifierEnding": "auto",
     "typescript.suggest.completeJSDocs": true,
+    "typescript.suggestionActions.enabled": true,
+    "typescript.autoClosingTags": true,
+    "typescript.check.npmIsInstalled": false,
+    "typescript.preferences.preferTypeOnlyAutoImports": true,
+    "typescript.suggest.autoImports": true,
+    "typescript.suggest.includeCompletionsForImportStatements": true,
+    "typescript.suggest.jsdoc.generateReturns": true,
+    // "typescript.tsc.autoDetect": "off",
+    "typescript.tsserver.experimental.enableProjectDiagnostics": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "typescript.workspaceSymbols.excludeLibrarySymbols": true,
+    "typescript.workspaceSymbols.scope": "currentProject",
+    "typescript.format.semicolons": "insert",
+
     "[typescript]": {
       "editor.defaultFormatter": "biomejs.biome"
     },
@@ -85,6 +118,10 @@
     "css.hover.references": false,
     "html.hover.references": false,
     "html.hover.documentation": false,
+    "html.autoClosingTags": false,
+    "html.format.maxPreserveNewLines": 1,
+    "html.autoCreateQuotes": true,
+    "html.format.indentInnerHtml": true,
 
     "search.exclude": {
       "**/node_modules": true,
@@ -92,7 +129,9 @@
       "**/dist": true,
       "**/public": true,
       "CHANGELOG.md": true
-    }
+    },
+
+    "workbench.editor.labelFormat": "medium"
   },
   "extensions": {
     "recommendations": ["biomejs.biome"]

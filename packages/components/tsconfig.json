@@ -8,6 +8,6 @@
     },
     "types": ["lit", "@wc-rask/web/module", "@wc-rask/web/events", "signal-polyfill"],
   },
-  "include": ["src/**/*", "config.ts"],
+  "include": ["src/**/*", "jspm.config.mjs"],
   "exclude": ["dist"],
 }

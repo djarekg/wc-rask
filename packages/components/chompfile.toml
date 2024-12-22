@@ -1,0 +1,33 @@
+version = 0.1
+
+[[task]]
+name = 'build'
+run = 'jspm build --config jspm.config.mjs'
+
+[[task]]
+name = 'build:declaration'
+run = 'tsc --project tsconfig.types.json'
+
+[[task]]
+name = 'postbuild'
+run = 'bun run build:declaration'
+
+[[task]]
+name = 'prebuild'
+run = 'bunx rimraf dist'
+
+[[task]]
+name = 'build'
+run = 'jspm build --config jspm.config.mjs'
+
+[[task]]
+name = 'build:declaration'
+run = 'tsc --project tsconfig.types.json'
+
+[[task]]
+name = 'postbuild'
+run = 'bun run build:declaration'
+
+[[task]]
+name = 'prebuild'
+run = 'bunx rimraf dist'

@@ -7,7 +7,6 @@
     "outDir": "dist",
     "paths": {
       "#/.": ["src/*"],
-      "@wc-rask/web/*": ["../../packages/web/src/*"],
     },
   },
   "include": ["tests/**/*.test.ts", "src/**/*.ts"],
