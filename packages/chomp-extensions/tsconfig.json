@@ -5,11 +5,8 @@
     "baseUrl": ".",
     "paths": {
       "#/.": ["src/*"],
-      "@wc-rask/core/*": ["../../packages/core/src/*"],
-      "@wc-rask/web/*": ["../../packages/web/src/*"],
     },
   },
   "include": ["src/**/*"],
   "exclude": ["dist"],
-  "references": [{ "path": "../../packages/core" }, { "path": "../../packages/web" }],
 }

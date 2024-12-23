@@ -1,0 +1,24 @@
+{
+  "env": [
+    "browser",
+    "development",
+    "module"
+  ],
+  "imports": {
+    "css": "https://ga.jspm.io/npm:css@3.0.0/index.js"
+  },
+  "scopes": {
+    "https://ga.jspm.io/": {
+      "atob": "https://ga.jspm.io/npm:atob@2.1.2/browser-atob.js",
+      "buffer": "https://ga.jspm.io/npm:@jspm/core@2.1.0/nodelibs/browser/buffer.js",
+      "decode-uri-component": "https://ga.jspm.io/npm:decode-uri-component@0.2.2/index.js",
+      "fs": "https://ga.jspm.io/npm:@jspm/core@2.1.0/nodelibs/browser/fs.js",
+      "inherits": "https://ga.jspm.io/npm:inherits@2.0.4/inherits_browser.js",
+      "path": "https://ga.jspm.io/npm:@jspm/core@2.1.0/nodelibs/browser/path.js",
+      "process": "https://ga.jspm.io/npm:@jspm/core@2.1.0/nodelibs/browser/process.js",
+      "source-map": "https://ga.jspm.io/npm:source-map@0.6.1/source-map.js",
+      "source-map-resolve": "https://ga.jspm.io/npm:source-map-resolve@0.6.0/index.js",
+      "url": "https://ga.jspm.io/npm:@jspm/core@2.1.0/nodelibs/browser/url.js"
+    }
+  }
+}

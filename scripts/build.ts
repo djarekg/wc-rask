@@ -1,25 +1,25 @@
 import { getPackageConfig } from '@jspm/generator';
-import type { PackageConfig } from '@jspm/generator';
 import { $, type BuildConfig, type BuildOutput } from 'bun';
 import dts from 'bun-plugin-dts';
 import c from 'picocolors';
 import ts from 'typescript';
+import packageJson from '../package.json';
 import tsconfig from '../tsconfig.types.json';
 
+const isDebug = process.env.NODE_ENV === 'development';
+const { version } = packageJson;
 const projectPath = tsconfig.references.map(({ path }) => path);
-
 const buildConfigBase: Omit<BuildConfig, 'entrypoints'> = {
   experimentalCss: true,
   sourcemap: 'external',
   splitting: true,
   target: 'browser',
   packages: 'external',
-  // external: ['lit', '@lit-labs/router'],
+  banner: `${isDebug ? 'DEBUG BUILD ' : ''}v${version}`,
 };
 
 const builds = projectPath.map(async path => {
   const projectPackageConfigPath = `${path}/package.json`;
-  // const projectPackageConfigUrl = Bun.fileURLToPath(projectPackageConfigPath);
 
   console.log(`${c.green(`Getting package config from ${projectPackageConfigPath}`)}`);
 
@@ -31,18 +31,9 @@ const builds = projectPath.map(async path => {
     with: { type: 'json' },
   });
 
-  // import(resolvedPackageJsonPath, { with: { type: 'json' } }).then(
-  //   mod => mod.defaul as PackageConfig,
-  // );
-  // const resolvedProjectPackageConfigPath = Bun.resolveSync(
-  //   projectPackageConfigPath,
-  //   import.meta.dir,
-  // );
-  // console.log(`%cProject package.json path ${resolvedProjectPackageConfigPath}`, 'color:blue');
+  const { name } = await getPackageConfig(packageJson);
 
-  // console.log(`${c.green(`Getting package config from ${JSON.stringify(packageJson)}`)}`);
-
-  const { name, ...pkg } = await getPackageConfig(packageJson);
+  console.log(`${c.green(`Package name: ${name}`)}`);
 
   const file = Bun.file(`${path}/tsconfig.types.json`, { type: 'json' });
   const configJson = await file.json();

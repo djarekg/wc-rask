@@ -8,12 +8,14 @@ export default {
     dir: 'dist',
     format: 'esm',
   },
+  plugins: [],
   // disable external module warnings
   // (JSPM / the import map handles these for us instead)
   onwarn (warning, warn) {
-    if (warning.code === 'UNRESOLVED_IMPORT')
+    if (warning.code === 'UNRESOLVED_IMPORT') {
       return;
+    }
+
     warn(warning);
   },
-  plugins: [],
 };

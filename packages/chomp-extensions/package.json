@@ -1,5 +1,5 @@
 {
-  "name": "@wc-rask/core",
+  "name": "@wc-rask/chomp-extensions",
   "version": "1.0.0",
   "private": false,
   "author": {
@@ -22,29 +22,27 @@
   },
   "exports": {
     ".": {
-      "@wc-rask/core": "./src/index.ts",
+      "@wc-rask/chomp-extensions": "./src/index.ts",
       "browser": "./dist/index.js",
       "default": "./src/index.ts",
       "source": "./dist/index.js.map",
       "types": "./dist/index.d.ts"
     },
     "./*": {
-      "@wc-rask/core": "./src/*.ts",
+      "@wc-rask/chomp-extensions": "./src/*.ts",
       "browser": "./dist/*.js",
       "default": "./src/*.ts"
     },
-    "./validation/*": "./dist/validation/*",
     "./package.json": "./package.json"
   },
   "scripts": {
     "dev": "chomp --watch",
     "start": "chomp"
-
   },
   "peerDependencies": {
+    "@biomejs/biome": "^1.9.4"x
     "typescript": "^5"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.9.4"
   }
 }

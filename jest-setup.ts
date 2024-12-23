@@ -7,3 +7,5 @@ configure({ testIdAttribute: 'data-test-id' });
 import 'lit/polyfill-support.js';
 import 'lit/polyfills/custom-elements.js';
 import 'lit/polyfills/shady-render.js';
+
+// require('jest-fetch-mock').enableMocks()

@@ -15,12 +15,17 @@
     "bun": ">=1.1.41"
   },
   "type": "module",
+  "imports": {
+    "internal": {
+      "#/*": "./src/*"
+    }
+  },
   "exports": {
     "./package.json": "./package.json"
   },
   "scripts": {
-    "clean": "rm -rf dist",
-    "build": "bun build ./src/index.html --packages external --sourcemap=linked --experimentalCss --outdir ./dist --external lit --target browser --plugins bun-plugin-html --root ./src --pubilc-path ./public",
+    "prebuild": "bunx rimraf dist",
+    "build": "jspm build --config jspm.config.mjs",
     "postbuild": "bun run build:declaration",
     "build:declaration": "tsc --project tsconfig.types.json"
   },

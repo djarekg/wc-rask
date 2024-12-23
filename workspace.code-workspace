@@ -33,8 +33,8 @@
     "typescript.inlayHints.parameterTypes.enabled": false,
 
     "editor.lightbulb.enabled": "on",
-    "editor.defaultFormatter": "",
-    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "biomejs.biome",
+    // "editor.formatOnSave": true,
     "editor.insertSpaces": true,
     "editor.codeActionsOnSave": {
       "source.organizeImports.biome": "explicit",
@@ -108,8 +108,9 @@
       "editor.defaultFormatter": "Prisma.prisma-insider"
     },
     "[toml]": {
-      "editor.defaultFormatter": "biomejs.biome"
+      "editor.defaultFormatter": "tamasfe.even-better-toml",
     },
+
     "jspm.generate.defaultConditions": "development,browser,module",
     "jspm.generate.preload": "ask",
     "jspm.generate.integrity": true,
@@ -131,9 +132,15 @@
       "CHANGELOG.md": true
     },
 
-    "workbench.editor.labelFormat": "medium"
+    "workbench.editor.labelFormat": "medium",
   },
   "extensions": {
-    "recommendations": ["biomejs.biome"]
+    "recommendations": [
+      "biomejs.biome",
+      "oven.bun-vscode",
+      "jspm.jspm-vscode",
+      "runem.lit-plugin",
+      "prisma.prisma-insider"
+    ]
   }
 }

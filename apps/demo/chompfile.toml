@@ -1,0 +1,23 @@
+version = 0.1
+
+extensions = ['chomp@0.1:jspm']
+
+# Generate an import map for a browser HTML page
+[[task]]
+name = 'build:html'
+target = 'dist/index.html'
+dep = 'src/index.html'
+template = 'jspm'
+[task.template-options]
+env = ['browser', 'development', 'module']
+preload = true
+integrity = true
+
+# Generate an import map for a Deno app
+[[task]]
+name = 'build:deno-importmap'
+target = 'importmap.json'
+dep = 'dist/index.js'
+template = 'jspm'
+[task.template-options]
+env = ['browser', 'development', 'module']

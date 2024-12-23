@@ -1,41 +1,54 @@
+default-task = 'build'
 version = 0.1
 
-[[task]]
-name = '//build'
-run = '''bun run --filter '*' build'''
+extensions = ['chomp@0.1:bun', 'chomp@0.1:jspm', 'chomp@0.1:npm']
 
 [[task]]
-name = 'build'
-run = 'bun run scripts/build.ts'
-
-[[task]]
-name = 'ci'
-run = 'biome ci'
+name = 'bun:install'
+targets = ['node_modules', 'bun.lockb']
+deps = ['package.json']
+validation = 'ok-only'
+display = 'init-only'
+run = 'bun install'
 
 [[task]]
 name = 'docs'
-run = 'typedoc'
+target = 'docs.md'
+deps = ['src/**/*.ts', 'docs/intro.md', 'docs/config.md', 'dist/cli.js']
+run = '''
+  node docs/generate.js > docs.md
+  node docs/finalize.js
+'''
+
 
 [[task]]
-name = 'docs-all'
-run = 'bun run docs --filter --if-present'
+name = 'build'
+targets = ['sandbox.html']
+deps = ['src/**/*', 'bun:install']
+invalidation = 'always'
+engine = 'node'
+run = '''
+    import { Generator } from '@jspm/generator';
+    import { readFile, writeFile } from 'fs/promises';
+    import { pathToFileURL } from 'url';
+    import mkdirp from 'mkdirp';
+    import { dirname } from 'path';
 
-[[task]]
-name = 'format'
-run = '''bun run --filter '*' biome format --write .'''
+    const generator = new Generator({
+      cache: false,
+      mapUrl: pathToFileURL(process.env.TARGET),
+      env: ["browser", "production", "module"],
+      integrity: true
+    });
 
-[[task]]
-name = 'fresh'
-run = '''rm -rf node_modules package-lock.json bun.lockb && echo 'installing' && bun i --silent'''
+    const htmlSource = await readFile(process.env.DEP, 'utf-8');
 
-[[task]]
-name = 'lint'
-run = '''bun run --filter '*' biome check --write --changed --staged'''
-
-[[task]]
-name = 'prefresh'
-run = 'bun run --cwd packages/core --cwd packages/web --cwd apps/demo rm -rf dist'
-
-[[task]]
-name = 'typecheck'
-run = 'tsc --noEmit'
+    mkdirp.sync(dirname(process.env.TARGET));
+    const pins = await generator.addMappings(htmlSource);
+    await writeFile(process.env.TARGET, await generator.htmlInject(htmlSource, {
+      pins,
+      htmlUrl: pathToFileURL(process.env.TARGET),
+      preload: true,
+      integrity: true
+    }));
+'''
