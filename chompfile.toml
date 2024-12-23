@@ -1,54 +1,23 @@
 default-task = 'build'
 version = 0.1
 
-extensions = ['chomp@0.1:bun', 'chomp@0.1:jspm', 'chomp@0.1:npm']
+extensions = ['chomp@0.1:jspm', 'chomp@0.1:npm']
+
+[template-options.npm]
+auto-install = true
 
 [[task]]
-name = 'bun:install'
-targets = ['node_modules', 'bun.lockb']
-deps = ['package.json']
-validation = 'ok-only'
-display = 'init-only'
-run = 'bun install'
+deps = ['build:packages', 'build:apps']
+name = "buile:all"
+target = 'dist/*.js'
+template = 'jspm'
+[task.template-options]
+env = ['browser', 'development', 'module']
 
 [[task]]
-name = 'docs'
-target = 'docs.md'
-deps = ['src/**/*.ts', 'docs/intro.md', 'docs/config.md', 'dist/cli.js']
-run = '''
-  node docs/generate.js > docs.md
-  node docs/finalize.js
-'''
-
-
-[[task]]
-name = 'build'
-targets = ['sandbox.html']
-deps = ['src/**/*', 'bun:install']
-invalidation = 'always'
-engine = 'node'
-run = '''
-    import { Generator } from '@jspm/generator';
-    import { readFile, writeFile } from 'fs/promises';
-    import { pathToFileURL } from 'url';
-    import mkdirp from 'mkdirp';
-    import { dirname } from 'path';
-
-    const generator = new Generator({
-      cache: false,
-      mapUrl: pathToFileURL(process.env.TARGET),
-      env: ["browser", "production", "module"],
-      integrity: true
-    });
-
-    const htmlSource = await readFile(process.env.DEP, 'utf-8');
-
-    mkdirp.sync(dirname(process.env.TARGET));
-    const pins = await generator.addMappings(htmlSource);
-    await writeFile(process.env.TARGET, await generator.htmlInject(htmlSource, {
-      pins,
-      htmlUrl: pathToFileURL(process.env.TARGET),
-      preload: true,
-      integrity: true
-    }));
-'''
+name = "build:packages"
+deps = ['src/**/*.ts']
+target = 'dist/#.js'
+template = 'jspm'
+[task.template-options]
+env = ['browser', 'development', 'module']

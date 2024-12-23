@@ -36,7 +36,6 @@
     "lit": "^3.2.1"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.9.4",
     "bun-plugin-html": "^2.2.4"
   }
 }

@@ -33,18 +33,13 @@
       "browser": "./dist/*.js",
       "default": "./src/*.ts"
     },
-    "./validation/*": "./dist/validation/*",
     "./package.json": "./package.json"
   },
   "scripts": {
     "dev": "chomp --watch",
     "start": "chomp"
-
   },
   "peerDependencies": {
     "typescript": "^5"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "^1.9.4"
   }
 }

@@ -2,14 +2,14 @@
   "extends": ["../../tsconfig.base.json", "../../tsconfig.lit.json"],
   "compilerOptions": {
     "rootDir": ".",
-    "baseUrl": ".",
+    "baseUrl": "src",
     "paths": {
       "#/.": ["src/*"],
       "@wc-rask/core/*": ["../../packages/core/src/*"],
-      "@wc-rask/web/*": ["../../packages/web/src/*"],
-    },
+      "@wc-rask/web/*": ["../../packages/web/src/*"]
+    }
   },
   "include": ["src/**/*"],
   "exclude": ["dist"],
-  "references": [{ "path": "../../packages/core" }, { "path": "../../packages/web" }],
+  "references": [{ "path": "../../packages/core" }, { "path": "../../packages/web" }]
 }

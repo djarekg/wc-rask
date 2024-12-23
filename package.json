@@ -18,14 +18,9 @@
   "scripts": {
     "prefresh": "bun run --cwd packages/core --cwd packages/web --cwd apps/demo rm -rf dist",
     "fresh": "rm -rf node_modules package-lock.json bun.lockb && echo 'installing' && bun i --silent",
-    "//build": "bun run --filter '*' build",
-    "build": "bun run scripts/build.ts",
-    "format": "bun run --filter '*' biome format --write .",
-    "lint": "bun run --filter '*' biome check --write --changed --staged",
-    "typecheck": "tsc --noEmit",
-    "ci": "biome ci",
-    "docs": "typedoc",
-    "docs-all": "bun run docs --filter --if-present"
+    "build2": "bun run scripts/build.ts",
+    "dev": "chomp --watch",
+    "start": "chomp"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",

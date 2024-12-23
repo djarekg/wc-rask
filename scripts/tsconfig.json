@@ -1,8 +1,11 @@
 {
   "extends": "../tsconfig.base.json",
   "compilerOptions": {
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "baseUrl": "../",
     "resolveJsonModule": true,
-    "esModuleInterop": true,
+    "esModuleInterop": true
   },
-  "files": ["build.ts", "upgrade-bun.ts"],
+  "files": ["build.ts", "upgrade-bun.ts", "parse-tsconfig.ts"]
 }

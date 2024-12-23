@@ -1,21 +1,22 @@
-import { getPackageConfig } from '@jspm/generator';
 import { $, type BuildConfig, type BuildOutput } from 'bun';
-import dts from 'bun-plugin-dts';
+// import dts from 'bun-plugin-dts';
 import c from 'picocolors';
-import ts from 'typescript';
 import packageJson from '../package.json';
 import tsconfig from '../tsconfig.types.json';
+import { parseTsConfig } from './parse-tsconfig.ts';
 
 const isDebug = process.env.NODE_ENV === 'development';
 const { version } = packageJson;
-const projectPath = tsconfig.references.map(({ path }) => path);
-const buildConfigBase: Omit<BuildConfig, 'entrypoints'> = {
-  experimentalCss: true,
+const projectPath = tsconfig.references
+  .filter(({ path }) => !/chomp-extensions/.test(path))
+  .map(({ path }) => path);
+const defaultBuildConfig: Omit<BuildConfig, 'entrypoints'> = {
   sourcemap: 'external',
   splitting: true,
-  target: 'browser',
+  target: 'bun',
   packages: 'external',
   banner: `${isDebug ? 'DEBUG BUILD ' : ''}v${version}`,
+  experimentalCss: true,
 };
 
 const builds = projectPath.map(async path => {
@@ -23,39 +24,43 @@ const builds = projectPath.map(async path => {
 
   console.log(`${c.green(`Getting package config from ${projectPackageConfigPath}`)}`);
 
-  const resolvedPackageJsonPath = import.meta.resolve(projectPackageConfigPath, import.meta.dir);
+  const packageJson = await Bun.file(await Bun.resolve(projectPackageConfigPath, '../')).json();
 
-  console.log(`${c.green(`Resolved package.json path ${resolvedPackageJsonPath}`)}`);
-
-  const packageJson = await import(resolvedPackageJsonPath, {
-    with: { type: 'json' },
-  });
-
-  const { name } = await getPackageConfig(packageJson);
+  const { name } = packageJson;
 
   console.log(`${c.green(`Package name: ${name}`)}`);
 
-  const file = Bun.file(`${path}/tsconfig.types.json`, { type: 'json' });
-  const configJson = await file.json();
-  const config = ts.parseJsonConfigFileContent(configJson, ts.sys, path);
-  const { baseUrl } = config.options;
+  const tsconfigPath = await Bun.resolve(`${path}/tsconfig.types.json`, '../');
+
+  console.log(`${c.green(`Getting tsconfig from ${tsconfigPath}`)}`);
+
+  const parsedTsConfiig = parseTsConfig(tsconfigPath);
+  const { baseUrl } = parsedTsConfiig.options;
+
+  console.log(`${c.green(`Base URL: ${baseUrl}`)}`);
   const entrypointFiilePath = `${baseUrl}/index.ts`;
-  const entrypointsExist = await Bun.file(entrypointFiilePath).exists();
-  const entrypoints = entrypointsExist ? [entrypointFiilePath] : null;
+  console.log(`${c.green(`Entrypoint file path: ${entrypointFiilePath}`)}`);
+  const entrypoints = [`${path}/${entrypointFiilePath}`];
+
+  console.log(`${c.green(`Entrypoints: ${entrypoints}`)}`);
+
+  await $`tsc --project ${path}/tsconfig.types.json`;
 
   return Bun.build({
-    ...buildConfigBase,
-    ...(entrypoints && { entrypoints }),
+    ...defaultBuildConfig,
+    // ...(entrypoints && { entrypoints }),
+    // entrypoints: entrypoints,
+    entrypoints: entrypoints ?? ['src/*.ts'],
     root: `${path}/src`,
     outdir: `${path}/dist`,
-    plugins: [
-      dts({
-        compilationOptions: {
-          preferredConfigPath: `${path}/tsconfig.types.json`,
-        },
-        failOnClass: true,
-      }),
-    ],
+    // plugins: [
+    //   dts({
+    //     compilationOptions: {
+    //       preferredConfigPath: `${path}/tsconfig.types.json`,
+    //     },
+    //     failOnClass: true,
+    //   }),
+    // ],
   });
 });
 
@@ -74,8 +79,9 @@ const main = async (): Promise<void> => {
       console.log('Build succeeded 🎉');
     } else {
       console.error(logs);
+      console.error('Build failed 😢');
     }
   }
 };
 
-main();
+await main();

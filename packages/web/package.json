@@ -25,7 +25,7 @@
       "@wc-rask/web": "./src/index.ts",
       "import": "./dist/index.js",
       "types": "./src/index.d.ts",
-      "default": "./dist/index.js.map",
+      "default": "./dist/index.js.map"
     },
     "./*": {
       "@wc-rask/web": "./src/*.ts",
@@ -51,8 +51,5 @@
   },
   "peerDependencies": {
     "typescript": "^5"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "^1.9.4"
   }
 }

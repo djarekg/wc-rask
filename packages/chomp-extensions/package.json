@@ -40,9 +40,6 @@
     "start": "chomp"
   },
   "peerDependencies": {
-    "@biomejs/biome": "^1.9.4"x
     "typescript": "^5"
-  },
-  "devDependencies": {
   }
 }

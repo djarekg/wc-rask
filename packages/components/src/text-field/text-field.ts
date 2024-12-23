@@ -4,8 +4,8 @@ import { type CSSResult, LitElement, type PropertyValues, type TemplateResult } 
 import { property, query, state } from 'lit/decorators.js';
 import { classMap } from 'lit/directives/class-map.js';
 import { live } from 'lit/directives/live.js';
-import css from './input.css' with { type: 'css' };
-
+// import css from './input.css' with { type: 'css' };
+import './text-field.css';
 /**
  * Input types that are compatible with the text field.
  */
@@ -39,7 +39,7 @@ export type InvalidTextFieldType =
 const BaseClass: typeof LitElement = SignalWatcher(LitElement);
 
 export class TextField extends BaseClass {
-  static override styles: CSSResult = css;
+  // static override styles: CSSResult = css;
 
   /**
    * The default value of the text field.
@@ -176,7 +176,7 @@ export class TextField extends BaseClass {
 
   #ignoreNextValueChange = false;
 
-  accessor #value = new Signal.State('');
+  #value = new Signal.State('');
 
   constructor() {
     super();
