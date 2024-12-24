@@ -8,8 +8,11 @@ auto-install = true
 
 [[task]]
 name = 'clean'
-deps = ['dist']
-run = 'rm -rf dist'
+run = '''
+  rm -rf dist
+  mkdir dist
+  '''
+validation = 'none'
 
 [[task]]
 name = "build"

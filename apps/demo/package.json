@@ -34,8 +34,5 @@
     "@wc-rask/core": "workspace:*",
     "@wc-rask/web": "workspace:*",
     "lit": "^3.2.1"
-  },
-  "devDependencies": {
-    "bun-plugin-html": "^2.2.4"
   }
 }
