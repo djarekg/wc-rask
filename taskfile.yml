@@ -3,37 +3,27 @@
 version: '3'
 
 includes:
-  core:
-    taskfile: ./taskfile.yml
-    dir: ./packages/core
-  web:
-    taskfile: ./taskfile.yml
-    dir: ./packages/web
-  components:
-    taskfile: ./taskfile.yml
-    dir: ./packages/components
-  demo:
-    taskfile: ./taskfile.yml
-    dir: ./apps/demo
+  core: ./packages/core/taskfile.yml
+  web: ./packages/web/taskfile.yml
+  components: ./packages/components/taskfile.yml
+  demo: ./apps/demo/taskfile.yml
 
 tasks:
-  default:
-    desc: Display all available tasks
+  workspacee:
+    desc: Workspace tasks
     cmds:
-      - task: list
-
-  list:
-    desc: List all tasks
-    cmds:
-      - task -l
-
-  install:
-    desc: Initialize the project
-    cmds:
-      - task: clean
+      - task: install:clean
       - task: install:bun
 
-  clean:
+  install:
+    aliases: [workspace]
+    desc: Initialize the project
+    cmds:
+      - task: install:clean
+      - task: install:bun
+
+  install:clean:
+    internal: true
     desc: Clean the project
     cmds:
       - rm -rf node_modules bun.lockb dist

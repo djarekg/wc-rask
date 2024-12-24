@@ -142,11 +142,11 @@
     "task.quickOpen.detail": true,
     "task": {
       "tree": {
-        "nesting": true,
-        "sort": "default"
+        "nesting": false,
+        "sort": "none"
       }
     },
-    "task.quickOpen.showAll": true
+    "task.quickOpen.showAll": false
   },
   "extensions": {
     "recommendations": [

@@ -3,23 +3,14 @@
 version: '3'
 
 tasks:
-  default:
-    desc: Display all available tasks
-    cmds:
-      - task: list
-
-  list:
-    desc: List all tasks
-    cmds:
-      - task -l
-
   build:
     desc: Build the project
     cmds:
-      - task: clean
+      - task: build:clean
       - task: build:ts
 
-  clean:
+  build:clean:
+    internal: true
     desc: Clean the project
     cmds:
       - rm -rf dist
