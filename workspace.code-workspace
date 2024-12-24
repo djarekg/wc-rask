@@ -136,7 +136,17 @@
       "CHANGELOG.md": true
     },
 
-    "workbench.editor.labelFormat": "medium"
+    "workbench.editor.labelFormat": "medium",
+
+    "task.autoDetect": "on",
+    "task.quickOpen.detail": true,
+    "task": {
+      "tree": {
+        "nesting": true,
+        "sort": "default"
+      }
+    },
+    "task.quickOpen.showAll": true
   },
   "extensions": {
     "recommendations": [
@@ -144,7 +154,8 @@
       "oven.bun-vscode",
       "jspm.jspm-vscode",
       "runem.lit-plugin",
-      "prisma.prisma-insider"
+      "prisma.prisma-insider",
+      "task.vscode-task"
     ]
   }
 }
