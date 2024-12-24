@@ -138,7 +138,8 @@
 
     "workbench.editor.labelFormat": "medium",
 
-    "task.autoDetect": "on",
+    "task.autoDetect": "off",
+    "task.allowAutomaticTasks": "off",
     "task.quickOpen.detail": true,
     "task": {
       "tree": {

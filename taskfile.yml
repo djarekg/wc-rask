@@ -9,13 +9,8 @@ includes:
   demo: ./apps/demo/taskfile.yml
 
 tasks:
-  workspacee:
-    desc: Workspace tasks
-    cmds:
-      - task: install:clean
-      - task: install:bun
-
   install:
+    internal: true
     aliases: [workspace]
     desc: Initialize the project
     cmds:
@@ -30,6 +25,7 @@ tasks:
 
   install:bun:
     desc: Install dependencies
+    deps: [install:clean]
     cmds:
       - bun install
 

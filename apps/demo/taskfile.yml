@@ -17,5 +17,6 @@ tasks:
 
   build:ts:
     desc: Build typescript
+    deps: [build:clean]
     cmds:
       - bun build src/**/*.ts --root src --outdir dist --target browser --experimental-css --splitting --packages external --packages external --sourcemap=linked
