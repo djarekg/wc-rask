@@ -2,20 +2,6 @@
 
 version: '3'
 
-includes:
-  core:
-    taskfile: ./taskfile.yml
-    dir: ./packages/core
-  web:
-    taskfile: ./taskfile.yml
-    dir: ./packages/web
-  components:
-    taskfile: ./taskfile.yml
-    dir: ./packages/components
-  demo:
-    taskfile: ./taskfile.yml
-    dir: ./apps/demo
-
 tasks:
   default:
     desc: Display all available tasks
