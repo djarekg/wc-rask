@@ -2,11 +2,30 @@
 
 version: '3'
 
-vars:
-  GREETING: Hello, World!
-
 tasks:
   default:
+    desc: Display all available tasks
     cmds:
-      - echo "{{.GREETING}}"
-    silent: true
+      - task: list
+
+  list:
+    desc: List all tasks
+    cmds:
+      - task -l
+
+  install:
+    desc: Initialize the project
+    cmds:
+      - task: clean
+      - task: install:bun
+
+  clean:
+    desc: Clean the project
+    cmds:
+      - rm -rf node_modules bun.lockb dist
+
+  install:bun:
+    desc: Install dependencies
+    cmds:
+      - bun install
+

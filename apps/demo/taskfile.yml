@@ -18,7 +18,6 @@ tasks:
     cmds:
       - task: clean
       - task: build:ts
-      - task: build:typings
 
   clean:
     desc: Clean the project
@@ -29,8 +28,3 @@ tasks:
     desc: Build typescript
     cmds:
       - bun build src/**/*.ts --root src --outdir dist --target browser --experimental-css --splitting --packages external --packages external --sourcemap=linked
-
-  build:typings:
-    desc: Build typings
-    cmds:
-         - bun tsc -p tsconfig.types.json

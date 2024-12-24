@@ -1,0 +1,2325 @@
+[12/24/2024, 12:08:12 PM] [[33mDEBUG[0m] [
+  [32m'Updating the config'[39m,
+  {
+    strict: [33mfalse[39m,
+    rules: {
+      [32m'no-boolean-in-attribute-binding'[39m: [32m'error'[39m,
+      [32m'no-complex-attribute-binding'[39m: [32m'error'[39m,
+      [32m'no-expressionless-property-binding'[39m: [32m'error'[39m,
+      [32m'no-incompatible-property-type'[39m: [32m'warn'[39m,
+      [32m'no-incompatible-type-binding'[39m: [32m'error'[39m,
+      [32m'no-invalid-attribute-name'[39m: [32m'error'[39m,
+      [32m'no-invalid-boolean-binding'[39m: [32m'error'[39m,
+      [32m'no-invalid-css'[39m: [32m'warn'[39m,
+      [32m'no-invalid-directive-binding'[39m: [32m'error'[39m,
+      [32m'no-invalid-tag-name'[39m: [32m'error'[39m,
+      [32m'no-legacy-attribute'[39m: [32m'off'[39m,
+      [32m'no-missing-element-type-definition'[39m: [32m'off'[39m,
+      [32m'no-missing-import'[39m: [32m'off'[39m,
+      [32m'no-noncallable-event-binding'[39m: [32m'error'[39m,
+      [32m'no-nullable-attribute-binding'[39m: [32m'error'[39m,
+      [32m'no-property-visibility-mismatch'[39m: [32m'off'[39m,
+      [32m'no-unclosed-tag'[39m: [32m'warn'[39m,
+      [32m'no-unintended-mixed-binding'[39m: [32m'warn'[39m,
+      [32m'no-unknown-attribute'[39m: [32m'off'[39m,
+      [32m'no-unknown-event'[39m: [32m'off'[39m,
+      [32m'no-unknown-property'[39m: [32m'off'[39m,
+      [32m'no-unknown-slot'[39m: [32m'off'[39m,
+      [32m'no-unknown-tag-name'[39m: [32m'off'[39m
+    },
+    securitySystem: [32m'off'[39m,
+    disable: [33mfalse[39m,
+    logging: [32m'verbose'[39m,
+    cwd: [32m'/Users/ipw51/Documents/repos/griffidi/wc-rask/.vscode'[39m,
+    format: { disable: [33mfalse[39m },
+    dontSuggestConfigChanges: [33mfalse[39m,
+    dontShowSuggestions: [33mfalse[39m,
+    maxProjectImportDepth: [33mInfinity[39m,
+    maxNodeModuleImportDepth: [33m1[39m,
+    htmlTemplateTags: [ [32m'html'[39m, [32m'raw'[39m ],
+    cssTemplateTags: [ [32m'css'[39m ],
+    globalTags: [],
+    globalAttributes: [],
+    globalEvents: [],
+    customHtmlData: []
+  }
+]
+[12/24/2024, 12:08:12 PM] [[36mVERBOSE[0m] [ [32m'Starting ts-lit-plugin...'[39m ]
+[12/24/2024, 12:08:12 PM] [[33mDEBUG[0m] [ [32m'Lit Analyzer: 2.0.3'[39m ]
+[12/24/2024, 12:08:12 PM] [[33mDEBUG[0m] [ [32m'Web Component Analyzer: 2.0.0'[39m ]
+[12/24/2024, 12:08:12 PM] [[33mDEBUG[0m] [ [32m'Running Typescript: 5.7.2'[39m ]
+[12/24/2024, 12:08:12 PM] [[33mDEBUG[0m] [
+  [32m'DIRNAME: /Users/ipw51/.vscode-insiders/extensions/runem.lit-plugin-1.4.3/node_modules/ts-lit-plugin/lib'[39m
+]
+[12/24/2024, 12:08:12 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/24/2024, 12:08:12 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (2ms): Result: '[39m,
+  [32m'undefined'[39m
+]
+[12/24/2024, 12:08:12 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/24/2024, 12:08:12 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (769ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:08:12 PM] [[35mWARN[0m] [
+  [32m'[getProgram] took long time to complete! (769ms)'[39m
+]
+[12/24/2024, 12:08:12 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Called'[39m
+]
+[12/24/2024, 12:08:13 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Finished (37ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:08:13 PM] [[36mVERBOSE[0m] [ [32m'[getApplicableRefactors] Called'[39m ]
+[12/24/2024, 12:08:13 PM] [[36mVERBOSE[0m] [
+  [32m'[getApplicableRefactors] Finished (16ms): Result: '[39m,
+  [32m'Array: 12 length'[39m
+]
+[12/24/2024, 12:08:13 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Called'[39m
+]
+[12/24/2024, 12:08:13 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Finished (6ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:08:13 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/24/2024, 12:08:13 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (7ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:08:13 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es5.d.ts (changed) (1ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2015.d.ts (changed) (1ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2016.d.ts (changed) (1ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2017.d.ts (changed) (1ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2018.d.ts (changed) (2ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2019.d.ts (changed) (2ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2020.d.ts (changed) (2ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2021.d.ts (changed) (2ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2022.d.ts (changed) (2ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2023.d.ts (changed) (2ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2024.d.ts (changed) (2ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.esnext.d.ts (changed) (3ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.dom.d.ts (changed) (3ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.dom.iterable.d.ts (changed) (400ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.dom.asynciterable.d.ts (changed) (400ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.webworker.importscripts.d.ts (changed) (401ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.scripthost.d.ts (changed) (401ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2015.core.d.ts (changed) (401ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2015.collection.d.ts (changed) (401ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2015.generator.d.ts (changed) (401ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2015.iterable.d.ts (changed) (406ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2015.promise.d.ts (changed) (406ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2015.proxy.d.ts (changed) (407ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2015.reflect.d.ts (changed) (407ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2015.symbol.d.ts (changed) (407ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts (changed) (407ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2016.array.include.d.ts (changed) (407ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2016.intl.d.ts (changed) (408ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2017.arraybuffer.d.ts (changed) (408ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2017.date.d.ts (changed) (408ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2017.object.d.ts (changed) (408ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts (changed) (408ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2017.string.d.ts (changed) (409ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2017.intl.d.ts (changed) (416ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts (changed) (416ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts (changed) (416ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts (changed) (417ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2018.intl.d.ts (changed) (417ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2018.promise.d.ts (changed) (417ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2018.regexp.d.ts (changed) (417ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2019.array.d.ts (changed) (417ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2019.object.d.ts (changed) (418ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2019.string.d.ts (changed) (418ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2019.symbol.d.ts (changed) (418ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2019.intl.d.ts (changed) (418ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2020.bigint.d.ts (changed) (418ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2020.date.d.ts (changed) (418ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2020.promise.d.ts (changed) (419ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2020.sharedmemory.d.ts (changed) (419ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2020.string.d.ts (changed) (419ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts (changed) (419ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2020.intl.d.ts (changed) (420ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2020.number.d.ts (changed) (420ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2021.promise.d.ts (changed) (420ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2021.string.d.ts (changed) (420ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2021.weakref.d.ts (changed) (421ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2021.intl.d.ts (changed) (421ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2022.array.d.ts (changed) (421ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2022.error.d.ts (changed) (421ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2022.intl.d.ts (changed) (421ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2022.object.d.ts (changed) (421ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2022.string.d.ts (changed) (422ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2022.regexp.d.ts (changed) (422ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2023.array.d.ts (changed) (429ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2023.collection.d.ts (changed) (430ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2023.intl.d.ts (changed) (430ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2024.arraybuffer.d.ts (changed) (430ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2024.collection.d.ts (changed) (430ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2024.object.d.ts (changed) (430ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2024.promise.d.ts (changed) (431ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2024.regexp.d.ts (changed) (431ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2024.sharedmemory.d.ts (changed) (431ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2024.string.d.ts (changed) (431ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.esnext.array.d.ts (changed) (431ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.esnext.collection.d.ts (changed) (431ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.esnext.intl.d.ts (changed) (431ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.esnext.disposable.d.ts (changed) (432ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.esnext.decorators.d.ts (changed) (432ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.esnext.iterator.d.ts (changed) (432ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.decorators.d.ts (changed) (432ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.decorators.legacy.d.ts (changed) (432ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2022.full.d.ts (changed) (433ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/signal-polyfill/dist/graph.d.ts (changed) (433ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/signal-polyfill/dist/equality.d.ts (changed) (435ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/signal-polyfill/dist/signal.d.ts (changed) (436ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/signal-polyfill/dist/computed.d.ts (changed) (437ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/signal-polyfill/dist/wrapper.d.ts (changed) (438ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/signal-polyfill/dist/index.d.ts (changed) (440ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@lit/reactive-element/development/css-tag.d.ts (changed) (443ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@lit/reactive-element/development/reactive-controller.d.ts (changed) (444ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@lit/reactive-element/development/reactive-element.d.ts (changed) (445ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/lit-html/development/directive.d.ts (changed) (450ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/trusted-types/lib/index.d.ts (changed) (452ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/lit-html/development/lit-html.d.ts (changed) (457ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/lit-element/development/lit-element.d.ts (changed) (464ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/lit-html/development/is-server.d.ts (changed) (465ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/lit/development/index.d.ts (changed) (466ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/lit/development/directive.d.ts (changed) (466ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/lit-html/development/async-directive.d.ts (changed) (466ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/lit/development/async-directive.d.ts (changed) (466ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@lit-labs/signals/development/lib/watch.d.ts (changed) (467ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@lit-labs/signals/development/lib/signal-watcher.d.ts (changed) (468ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/lit/development/html.d.ts (changed) (468ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@lit-labs/signals/development/lib/html-tag.d.ts (changed) (469ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@lit-labs/signals/development/index.d.ts (changed) (469ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@material/web/internal/events/redispatch-event.d.ts (changed) (470ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@lit/reactive-element/development/decorators/base.d.ts (changed) (470ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@lit/reactive-element/development/decorators/custom-element.d.ts (changed) (471ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@lit/reactive-element/development/decorators/property.d.ts (changed) (471ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@lit/reactive-element/development/decorators/state.d.ts (changed) (472ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@lit/reactive-element/development/decorators/event-options.d.ts (changed) (475ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@lit/reactive-element/development/decorators/query.d.ts (changed) (476ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@lit/reactive-element/development/decorators/query-all.d.ts (changed) (476ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@lit/reactive-element/development/decorators/query-async.d.ts (changed) (477ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@lit/reactive-element/development/decorators/query-assigned-nodes.d.ts (changed) (479ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@lit/reactive-element/development/decorators/query-assigned-elements.d.ts (changed) (480ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/lit/development/decorators.d.ts (changed) (480ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/lit-html/development/directives/class-map.d.ts (changed) (481ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/lit/development/directives/class-map.d.ts (changed) (481ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/lit-html/development/directives/live.d.ts (changed) (485ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/lit/development/directives/live.d.ts (changed) (486ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/packages/components/dist/index.js (changed) (488ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/aria-query/index.d.ts (changed) (499ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@babel/types/lib/index.d.ts (changed) (504ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/babel__generator/index.d.ts (changed) (784ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@babel/parser/typings/babel-parser.d.ts (changed) (786ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/babel__template/index.d.ts (changed) (789ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/babel__traverse/index.d.ts (changed) (791ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/babel__core/index.d.ts (changed) (837ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/compatibility/disposable.d.ts (changed) (845ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/compatibility/indexable.d.ts (changed) (846ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/compatibility/iterators.d.ts (changed) (847ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/compatibility/index.d.ts (changed) (847ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/globals.typedarray.d.ts (changed) (847ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/buffer.buffer.d.ts (changed) (847ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/undici-types/header.d.ts (changed) (847ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/undici-types/readable.d.ts (changed) (847ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/assert.d.ts (changed) (848ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/assert/strict.d.ts (changed) (848ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/undici-types/header.d.ts (changed) (848ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/undici-types/readable.d.ts (changed) (849ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/undici-types/file.d.ts (changed) (849ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/undici-types/fetch.d.ts (changed) (857ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/undici-types/formdata.d.ts (changed) (861ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/undici-types/connector.d.ts (changed) (862ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/undici-types/client.d.ts (changed) (863ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/undici-types/errors.d.ts (changed) (864ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/undici-types/dispatcher.d.ts (changed) (866ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/undici-types/global-dispatcher.d.ts (changed) (873ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/undici-types/global-origin.d.ts (changed) (876ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/undici-types/pool-stats.d.ts (changed) (877ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/undici-types/pool.d.ts (changed) (877ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/undici-types/handlers.d.ts (changed) (878ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/undici-types/balanced-pool.d.ts (changed) (878ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/undici-types/agent.d.ts (changed) (879ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/undici-types/mock-interceptor.d.ts (changed) (880ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/undici-types/mock-agent.d.ts (changed) (882ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/undici-types/mock-client.d.ts (changed) (883ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/undici-types/mock-pool.d.ts (changed) (887ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/undici-types/mock-errors.d.ts (changed) (888ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/undici-types/proxy-agent.d.ts (changed) (889ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/undici-types/api.d.ts (changed) (891ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/undici-types/cookies.d.ts (changed) (892ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/undici-types/patch.d.ts (changed) (893ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/undici-types/filereader.d.ts (changed) (894ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/undici-types/diagnostics-channel.d.ts (changed) (896ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/undici-types/websocket.d.ts (changed) (897ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/undici-types/content-type.d.ts (changed) (900ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/undici-types/cache.d.ts (changed) (900ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/undici-types/interceptors.d.ts (changed) (905ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/undici-types/index.d.ts (changed) (905ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/globals.d.ts (changed) (907ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/async_hooks.d.ts (changed) (908ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/buffer.d.ts (changed) (908ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/child_process.d.ts (changed) (909ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/cluster.d.ts (changed) (909ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/console.d.ts (changed) (909ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/constants.d.ts (changed) (909ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/crypto.d.ts (changed) (909ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/dgram.d.ts (changed) (909ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/diagnostics_channel.d.ts (changed) (910ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/dns.d.ts (changed) (910ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/dns/promises.d.ts (changed) (910ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/domain.d.ts (changed) (910ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/dom-events.d.ts (changed) (910ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/events.d.ts (changed) (910ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/fs.d.ts (changed) (911ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/fs/promises.d.ts (changed) (911ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/http.d.ts (changed) (911ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/http2.d.ts (changed) (914ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/https.d.ts (changed) (914ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/inspector.d.ts (changed) (914ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/module.d.ts (changed) (914ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/net.d.ts (changed) (914ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/os.d.ts (changed) (915ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/path.d.ts (changed) (915ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/perf_hooks.d.ts (changed) (915ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/process.d.ts (changed) (915ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/punycode.d.ts (changed) (915ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/querystring.d.ts (changed) (915ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/readline.d.ts (changed) (916ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/readline/promises.d.ts (changed) (916ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/repl.d.ts (changed) (916ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/sea.d.ts (changed) (916ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/stream.d.ts (changed) (916ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/stream/promises.d.ts (changed) (916ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/stream/consumers.d.ts (changed) (917ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/stream/web.d.ts (changed) (917ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/string_decoder.d.ts (changed) (920ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/test.d.ts (changed) (920ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/timers.d.ts (changed) (920ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/timers/promises.d.ts (changed) (921ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/tls.d.ts (changed) (921ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/trace_events.d.ts (changed) (921ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/tty.d.ts (changed) (921ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/url.d.ts (changed) (921ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/util.d.ts (changed) (921ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/v8.d.ts (changed) (921ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/vm.d.ts (changed) (922ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/wasi.d.ts (changed) (922ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/worker_threads.d.ts (changed) (922ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/zlib.d.ts (changed) (922ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/globals.global.d.ts (changed) (922ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/node/index.d.ts (changed) (923ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/undici-types/file.d.ts (changed) (923ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/undici-types/fetch.d.ts (changed) (924ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/undici-types/formdata.d.ts (changed) (929ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/undici-types/connector.d.ts (changed) (929ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/undici-types/client.d.ts (changed) (930ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/undici-types/errors.d.ts (changed) (932ms total)'[39m
+]
+[12/24/2024, 12:08:13 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/undici-types/dispatcher.d.ts (changed) (934ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/undici-types/global-dispatcher.d.ts (changed) (942ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/undici-types/global-origin.d.ts (changed) (943ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/undici-types/pool-stats.d.ts (changed) (943ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/undici-types/pool.d.ts (changed) (944ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/undici-types/handlers.d.ts (changed) (944ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/undici-types/balanced-pool.d.ts (changed) (946ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/undici-types/agent.d.ts (changed) (949ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/undici-types/mock-interceptor.d.ts (changed) (952ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/undici-types/mock-agent.d.ts (changed) (954ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/undici-types/mock-client.d.ts (changed) (956ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/undici-types/mock-pool.d.ts (changed) (956ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/undici-types/mock-errors.d.ts (changed) (957ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/undici-types/proxy-agent.d.ts (changed) (964ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/undici-types/env-http-proxy-agent.d.ts (changed) (965ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/undici-types/retry-handler.d.ts (changed) (966ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/undici-types/retry-agent.d.ts (changed) (967ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/undici-types/api.d.ts (changed) (967ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/undici-types/interceptors.d.ts (changed) (968ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/undici-types/util.d.ts (changed) (969ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/undici-types/cookies.d.ts (changed) (970ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/undici-types/patch.d.ts (changed) (970ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/undici-types/websocket.d.ts (changed) (972ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/undici-types/eventsource.d.ts (changed) (975ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/undici-types/filereader.d.ts (changed) (976ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/undici-types/diagnostics-channel.d.ts (changed) (978ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/undici-types/content-type.d.ts (changed) (979ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/undici-types/cache.d.ts (changed) (980ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/undici-types/index.d.ts (changed) (982ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/globals.d.ts (changed) (985ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/assert.d.ts (changed) (985ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/assert/strict.d.ts (changed) (985ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/async_hooks.d.ts (changed) (986ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/buffer.d.ts (changed) (986ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/child_process.d.ts (changed) (986ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/cluster.d.ts (changed) (987ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/console.d.ts (changed) (988ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/constants.d.ts (changed) (988ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/crypto.d.ts (changed) (989ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/dgram.d.ts (changed) (990ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/diagnostics_channel.d.ts (changed) (990ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/dns.d.ts (changed) (990ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/dns/promises.d.ts (changed) (991ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/domain.d.ts (changed) (992ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/dom-events.d.ts (changed) (997ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/events.d.ts (changed) (998ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/fs.d.ts (changed) (998ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/fs/promises.d.ts (changed) (998ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/http.d.ts (changed) (998ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/http2.d.ts (changed) (998ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/https.d.ts (changed) (998ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/inspector.d.ts (changed) (998ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/module.d.ts (changed) (999ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/net.d.ts (changed) (999ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/os.d.ts (changed) (999ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/path.d.ts (changed) (999ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/perf_hooks.d.ts (changed) (999ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/process.d.ts (changed) (1000ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/punycode.d.ts (changed) (1000ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/querystring.d.ts (changed) (1000ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/readline.d.ts (changed) (1000ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/readline/promises.d.ts (changed) (1001ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/repl.d.ts (changed) (1001ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/sea.d.ts (changed) (1001ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/sqlite.d.ts (changed) (1005ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/stream.d.ts (changed) (1006ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/stream/promises.d.ts (changed) (1006ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/stream/consumers.d.ts (changed) (1006ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/stream/web.d.ts (changed) (1006ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/string_decoder.d.ts (changed) (1006ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/test.d.ts (changed) (1006ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/timers.d.ts (changed) (1007ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/timers/promises.d.ts (changed) (1007ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/tls.d.ts (changed) (1007ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/trace_events.d.ts (changed) (1007ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/tty.d.ts (changed) (1007ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/url.d.ts (changed) (1007ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/util.d.ts (changed) (1007ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/v8.d.ts (changed) (1007ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/vm.d.ts (changed) (1008ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/wasi.d.ts (changed) (1008ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/worker_threads.d.ts (changed) (1008ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/zlib.d.ts (changed) (1008ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Library/Caches/typescript/5.7/node_modules/@types/node/index.d.ts (changed) (1008ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/ws/index.d.ts (changed) (1012ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/ws/index.d.mts (changed) (1023ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/bun-types/fetch.d.ts (changed) (1024ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/bun-types/globals.d.ts (changed) (1024ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/bun-types/bun.d.ts (changed) (1046ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/bun-types/overrides.d.ts (changed) (1073ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/bun-types/ffi.d.ts (changed) (1075ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/bun-types/test.d.ts (changed) (1081ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/bun-types/html-rewriter.d.ts (changed) (1093ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/bun-types/jsc.d.ts (changed) (1095ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/bun-types/sqlite.d.ts (changed) (1097ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/bun-types/wasm.d.ts (changed) (1100ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/bun-types/deprecated.d.ts (changed) (1105ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/bun-types/index.d.ts (changed) (1107ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/bun/index.d.ts (changed) (1107ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/graceful-fs/index.d.ts (changed) (1107ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/unist/index.d.ts (changed) (1108ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/hast/index.d.ts (changed) (1108ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/istanbul-lib-coverage/index.d.ts (changed) (1114ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/istanbul-lib-report/index.d.ts (changed) (1116ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/istanbul-reports/index.d.ts (changed) (1121ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/stack-utils/index.d.ts (changed) (1123ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/trusted-types/index.d.ts (changed) (1124ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/yargs-parser/index.d.ts (changed) (1125ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/yargs/index.d.ts (changed) (1127ms total)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 339 files (1 invalidated) in 1149ms'[39m
+]
+[12/24/2024, 12:08:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (1192ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:08:14 PM] [[35mWARN[0m] [
+  [32m'[getSemanticDiagnostics] took long time to complete! (1192ms)'[39m
+]
+[12/24/2024, 12:08:14 PM] [[36mVERBOSE[0m] [ [32m'[getApplicableRefactors] Called'[39m ]
+[12/24/2024, 12:08:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getApplicableRefactors] Finished (1ms): Result: '[39m,
+  [32m'Array: 12 length'[39m
+]
+[12/24/2024, 12:08:14 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/24/2024, 12:08:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:08:20 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/24/2024, 12:08:20 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (2ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:08:20 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/24/2024, 12:08:21 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (250ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:08:21 PM] [[35mWARN[0m] [
+  [32m'[getProgram] took long time to complete! (250ms)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/24/2024, 12:08:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (2ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:08:23 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@jspm/generator/lib/common/log.d.ts (changed) (0ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@jspm/generator/lib/providers/index.d.ts (changed) (1ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@jspm/generator/lib/trace/resolver.d.ts (changed) (3ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@jspm/import-map/lib/map.d.ts (changed) (8ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@jspm/generator/lib/install/lock.d.ts (changed) (10ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@jspm/generator/lib/install/installer.d.ts (changed) (13ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@jspm/generator/lib/install/package.d.ts (changed) (15ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@jspm/generator/lib/trace/tracemap.d.ts (changed) (17ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@jspm/generator/dist/fetch-common-4bf0f5e0.js (changed) (19ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@jspm/generator/dist/fetch-native.js (changed) (23ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@jspm/generator/lib/common/fetch.d.ts (changed) (23ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@jspm/generator/lib/common/source-style.d.ts (changed) (24ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@jspm/generator/lib/html/analyze.d.ts (changed) (26ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@jspm/generator/lib/generator.d.ts (changed) (27ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@testing-library/dom/types/matches.d.ts (changed) (31ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@testing-library/dom/types/wait-for.d.ts (changed) (32ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@testing-library/dom/types/query-helpers.d.ts (changed) (33ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@testing-library/dom/types/queries.d.ts (changed) (35ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@testing-library/dom/types/get-queries-for-element.d.ts (changed) (45ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/pretty-format/build/types.d.ts (changed) (52ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/pretty-format/build/index.d.ts (changed) (55ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@testing-library/dom/types/screen.d.ts (changed) (56ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@testing-library/dom/types/wait-for-element-to-be-removed.d.ts (changed) (56ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@testing-library/dom/types/get-node-text.d.ts (changed) (56ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@testing-library/dom/types/events.d.ts (changed) (57ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@testing-library/dom/types/pretty-dom.d.ts (changed) (58ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@testing-library/dom/types/role-helpers.d.ts (changed) (59ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@testing-library/dom/types/config.d.ts (changed) (59ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@testing-library/dom/types/suggestions.d.ts (changed) (60ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@testing-library/dom/types/index.d.ts (changed) (61ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@types/yargs/index.d.mts (changed) (61ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/chalk/index.d.ts (changed) (62ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@sinclair/typebox/typebox.d.ts (changed) (69ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@jest/schemas/build/index.d.ts (changed) (96ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@jest/types/build/index.d.ts (changed) (98ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/jest-message-util/build/index.d.ts (changed) (115ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@jest/console/build/index.d.ts (changed) (117ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/jest-haste-map/build/index.d.ts (changed) (120ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/jest-resolve/build/index.d.ts (changed) (124ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/collect-v8-coverage/index.d.ts (changed) (128ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@jest/test-result/build/index.d.ts (changed) (129ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@jest/reporters/build/index.d.ts (changed) (133ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/jest-changed-files/build/index.d.ts (changed) (138ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/emittery/index.d.ts (changed) (139ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/jest-watcher/build/index.d.ts (changed) (142ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/jest-runner/build/index.d.ts (changed) (145ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@jest/core/build/index.d.ts (changed) (150ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/jest-cli/build/index.d.ts (changed) (153ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/jest/build/index.d.ts (changed) (153ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@testing-library/jest-dom/types/matchers.d.ts (changed) (153ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@testing-library/jest-dom/types/jest.d.ts (changed) (155ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@testing-library/jest-dom/types/index.d.ts (changed) (157ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/lit/index.d.ts (changed) (157ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/picocolors/types.d.ts (changed) (157ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/picocolors/picocolors.d.ts (changed) (158ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/utils/array.d.ts (changed) (159ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/utils/events.d.ts (changed) (160ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/utils/component.d.ts (changed) (163ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/utils/enum.d.ts (changed) (164ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/utils/fs.d.ts (changed) (164ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/minimatch/dist/esm/ast.d.ts (changed) (165ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/minimatch/dist/esm/escape.d.ts (changed) (166ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/minimatch/dist/esm/unescape.d.ts (changed) (167ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/minimatch/dist/esm/index.d.ts (changed) (167ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/utils/paths.d.ts (changed) (170ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/utils/general.d.ts (changed) (171ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typescript/lib/typescript.d.ts (changed) (171ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/utils/minimalSourceFile.d.ts (changed) (370ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/models/reflections/kind.d.ts (changed) (371ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/converter/context.d.ts (changed) (373ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@shikijs/vscode-textmate/dist/index.d.mts (changed) (374ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@shikijs/types/dist/index.d.mts (changed) (386ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@gerrit0/mini-shiki/dist/shiki.d.ts (changed) (394ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/models/ReflectionCategory.d.ts (changed) (398ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/models/ReflectionGroup.d.ts (changed) (399ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/models/comments/index.d.ts (changed) (400ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/models/reflections/document.d.ts (changed) (401ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/models/reflections/container.d.ts (changed) (401ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/serialization/schema.d.ts (changed) (402ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/models/FileRegistry.d.ts (changed) (408ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/models/reflections/project.d.ts (changed) (409ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/converter/comments/declarationReference.d.ts (changed) (411ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/models/types.d.ts (changed) (412ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/models/reflections/parameter.d.ts (changed) (418ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/models/reflections/type-parameter.d.ts (changed) (419ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/serialization/deserializer.d.ts (changed) (421ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/models/sources/file.d.ts (changed) (424ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/models/reflections/signature.d.ts (changed) (424ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/models/reflections/declaration.d.ts (changed) (425ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/utils/sort.d.ts (changed) (426ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/utils/options/declaration.d.ts (changed) (427ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/utils/options/options.d.ts (changed) (433ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/utils/options/readers/arguments.d.ts (changed) (436ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/utils/options/readers/package-json.d.ts (changed) (436ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/utils/options/readers/tsconfig.d.ts (changed) (437ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/utils/options/readers/typedoc.d.ts (changed) (437ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/utils/options/readers/index.d.ts (changed) (441ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/utils/options/defaults.d.ts (changed) (441ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/utils/options/index.d.ts (changed) (442ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/utils/entry-point.d.ts (changed) (443ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/converter/comments/index.d.ts (changed) (444ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/converter/comments/linkResolver.d.ts (changed) (445ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/converter/converter.d.ts (changed) (446ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/converter/convert-expression.d.ts (changed) (448ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/converter/index.d.ts (changed) (449ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/models/reflections/ReflectionSymbolId.d.ts (changed) (449ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/models/comments/comment.d.ts (changed) (451ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/models/reflections/reference.d.ts (changed) (454ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/models/reflections/variant.d.ts (changed) (455ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/internationalization/index.d.ts (changed) (455ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/models/reflections/abstract.d.ts (changed) (456ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/models/reflections/utils.d.ts (changed) (458ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/models/reflections/index.d.ts (changed) (458ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/models/sources/index.d.ts (changed) (459ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/models/index.d.ts (changed) (460ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/utils/options/tsdoc-defaults.d.ts (changed) (461ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/internationalization/locales/en.d.cts (changed) (469ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/internationalization/translatable.d.ts (changed) (476ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/internationalization/internationalization.d.ts (changed) (479ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/utils/loggers.d.ts (changed) (480ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/utils/map.d.ts (changed) (481ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/utils/plugins.d.ts (changed) (482ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/utils/hooks.d.ts (changed) (483ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/utils/jsx.elements.d.ts (changed) (483ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/utils/jsx.d.ts (changed) (511ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/utils/validation.d.ts (changed) (512ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/utils/tsutils.d.ts (changed) (514ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/utils/index.d.ts (changed) (514ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/serialization/events.d.ts (changed) (515ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/serialization/serializer.d.ts (changed) (516ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/serialization/components.d.ts (changed) (517ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/serialization/index.d.ts (changed) (518ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/output/events.d.ts (changed) (518ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/output/models/UrlMapping.d.ts (changed) (519ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/output/components.d.ts (changed) (525ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/output/themes/default/Slugger.d.ts (changed) (526ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/output/theme.d.ts (changed) (527ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/output/themes/MarkedPlugin.d.ts (changed) (527ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/output/plugins/AssetsPlugin.d.ts (changed) (529ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/output/plugins/HierarchyPlugin.d.ts (changed) (529ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/output/plugins/IconsPlugin.d.ts (changed) (531ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/output/plugins/JavascriptIndexPlugin.d.ts (changed) (531ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/output/plugins/NavigationPlugin.d.ts (changed) (531ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/output/plugins/SitemapPlugin.d.ts (changed) (532ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/output/plugins/index.d.ts (changed) (532ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/output/themes/default/DefaultTheme.d.ts (changed) (532ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/output/index.d.ts (changed) (535ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/output/themes/default/partials/icon.d.ts (changed) (536ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/output/themes/default/DefaultThemeRenderContext.d.ts (changed) (537ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/output/renderer.d.ts (changed) (540ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/output/output.d.ts (changed) (542ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/lib/application.d.ts (changed) (543ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/typedoc/dist/index.d.ts (changed) (544ms total)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 153 files (0 invalidated) in 545ms'[39m
+]
+[12/24/2024, 12:08:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (576ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:08:23 PM] [[35mWARN[0m] [
+  [32m'[getSemanticDiagnostics] took long time to complete! (576ms)'[39m
+]
+[12/24/2024, 12:08:23 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/24/2024, 12:08:23 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:08:37 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/24/2024, 12:08:37 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (2ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:08:37 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/24/2024, 12:08:37 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (62ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:08:40 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/24/2024, 12:08:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:08:40 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/24/2024, 12:08:40 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/24/2024, 12:08:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (31ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:08:40 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/24/2024, 12:08:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (3ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:08:47 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/24/2024, 12:08:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (2ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:08:47 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/24/2024, 12:08:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (61ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:08:49 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/24/2024, 12:08:49 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:08:49 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/24/2024, 12:08:49 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/24/2024, 12:08:49 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (33ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:08:49 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/24/2024, 12:08:49 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:08:52 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/24/2024, 12:08:52 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (2ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:08:52 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/24/2024, 12:08:52 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (66ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:08:54 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/24/2024, 12:08:54 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (6ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:08:54 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/24/2024, 12:08:54 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/24/2024, 12:08:54 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (26ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:08:54 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/24/2024, 12:08:54 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:13:14 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/24/2024, 12:13:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:14 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/24/2024, 12:13:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (176ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:14 PM] [[35mWARN[0m] [
+  [32m'[getProgram] took long time to complete! (176ms)'[39m
+]
+[12/24/2024, 12:13:14 PM] [[36mVERBOSE[0m] [ [32m'[getApplicableRefactors] Called'[39m ]
+[12/24/2024, 12:13:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getApplicableRefactors] Finished (7ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:13:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Called'[39m
+]
+[12/24/2024, 12:13:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Finished (5ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:14 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/24/2024, 12:13:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:13:14 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/24/2024, 12:13:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:13:41 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/24/2024, 12:13:41 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:41 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/24/2024, 12:13:41 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (56ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:44 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/24/2024, 12:13:44 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:44 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/24/2024, 12:13:44 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (37ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:44 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/24/2024, 12:13:44 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:13:44 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/24/2024, 12:13:44 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:13:46 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/24/2024, 12:13:46 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (5ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:13:46 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/24/2024, 12:13:46 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:13:46 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/24/2024, 12:13:46 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:46 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (141ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:47 PM] [[35mWARN[0m] [
+  [32m'[getProgram] took long time to complete! (141ms)'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [ [32m'[getApplicableRefactors] Called'[39m ]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getApplicableRefactors] Finished (3ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Called'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Finished (2ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/24/2024, 12:13:47 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/packages/components/dist/text-field/text-field.d.ts (changed) (0ms total)'[39m
+]
+[12/24/2024, 12:13:47 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/packages/components/dist/button/button.d.ts (changed) (3ms total)'[39m
+]
+[12/24/2024, 12:13:47 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/packages/components/dist/notification/notification.d.ts (changed) (4ms total)'[39m
+]
+[12/24/2024, 12:13:47 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/packages/components/dist/index.d.ts (changed) (4ms total)'[39m
+]
+[12/24/2024, 12:13:47 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/packages/components/dist/button-kt6tgpj8.js (changed) (5ms total)'[39m
+]
+[12/24/2024, 12:13:47 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/lit/development/decorators.d.ts (changed) (6ms total)'[39m
+]
+[12/24/2024, 12:13:47 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/packages/components/dist/button/button.js (changed) (6ms total)'[39m
+]
+[12/24/2024, 12:13:47 PM] [[33mDEBUG[0m] [
+  [32m'Analyzing components in /Users/ipw51/Documents/repos/griffidi/wc-rask/node_modules/@jspm/generator/dist/fetch-common-4bf0f5e0.js (changed) (7ms total)'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 8 files (0 invalidated) in 9ms'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (15ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (2ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Called'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Finished (2ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [ [32m'[getDefinitionAtPosition] Called'[39m ]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getDefinitionAtPosition] Finished (3ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [ [32m'[findReferences] Called'[39m ]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'[findReferences] Finished (13ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [ [32m'[getQuickInfoAtPosition] Called'[39m ]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getQuickInfoAtPosition] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [ [32m'[getDefinitionAtPosition] Called'[39m ]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getDefinitionAtPosition] Finished (0ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [ [32m'[findReferences] Called'[39m ]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'[findReferences] Finished (5ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (7ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [ [32m'[getQuickInfoAtPosition] Called'[39m ]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getQuickInfoAtPosition] Finished (2ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [ [32m'[getDefinitionAtPosition] Called'[39m ]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getDefinitionAtPosition] Finished (4ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [ [32m'[findReferences] Called'[39m ]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'[findReferences] Finished (65ms): Result: '[39m,
+  [32m'Array: 5 length'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [ [32m'[getQuickInfoAtPosition] Called'[39m ]
+[12/24/2024, 12:13:47 PM] [[36mVERBOSE[0m] [
+  [32m'[getQuickInfoAtPosition] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:53 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Called'[39m
+]
+[12/24/2024, 12:13:53 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:54 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Called'[39m
+]
+[12/24/2024, 12:13:54 PM] [[36mVERBOSE[0m] [
+  [32m'[getEncodedSemanticClassifications] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:54 PM] [[36mVERBOSE[0m] [ [32m'[getApplicableRefactors] Called'[39m ]
+[12/24/2024, 12:13:54 PM] [[36mVERBOSE[0m] [
+  [32m'[getApplicableRefactors] Finished (2ms): Result: '[39m,
+  [32m'Array: 12 length'[39m
+]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [ [32m'[getDefinitionAtPosition] Called'[39m ]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [
+  [32m'[getDefinitionAtPosition] Finished (1ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [ [32m'[findReferences] Called'[39m ]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [
+  [32m'[findReferences] Finished (9ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [ [32m'[getQuickInfoAtPosition] Called'[39m ]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [
+  [32m'[getQuickInfoAtPosition] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [ [32m'[getDefinitionAtPosition] Called'[39m ]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [
+  [32m'[getDefinitionAtPosition] Finished (1ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [ [32m'[findReferences] Called'[39m ]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [
+  [32m'[findReferences] Finished (6ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [ [32m'[getQuickInfoAtPosition] Called'[39m ]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [
+  [32m'[getQuickInfoAtPosition] Finished (6ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [ [32m'[getDefinitionAtPosition] Called'[39m ]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [
+  [32m'[getDefinitionAtPosition] Finished (0ms): Result: '[39m,
+  [32m'Array: 1 length'[39m
+]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [ [32m'[findReferences] Called'[39m ]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [
+  [32m'[findReferences] Finished (3ms): Result: '[39m,
+  [32m'Array: 5 length'[39m
+]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (3ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [ [32m'[getSourceMapper] Called'[39m ]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [
+  [32m'[getSourceMapper] Finished (0ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [ [32m'[getQuickInfoAtPosition] Called'[39m ]
+[12/24/2024, 12:13:55 PM] [[36mVERBOSE[0m] [
+  [32m'[getQuickInfoAtPosition] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:59 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/24/2024, 12:13:59 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:13:59 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/24/2024, 12:13:59 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (51ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:14:02 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/24/2024, 12:14:02 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (2ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:14:02 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/24/2024, 12:14:02 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (2ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:14:02 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/24/2024, 12:14:02 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:14:02 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/24/2024, 12:14:02 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 1ms'[39m
+]
+[12/24/2024, 12:14:02 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (18ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:14:02 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/24/2024, 12:14:02 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:14:17 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/24/2024, 12:14:17 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (2ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:14:17 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/24/2024, 12:14:18 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (43ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:14:20 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/24/2024, 12:14:20 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (2ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:14:20 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/24/2024, 12:14:20 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:14:20 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/24/2024, 12:14:20 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:14:20 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/24/2024, 12:14:20 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/24/2024, 12:14:20 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (19ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:14:20 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/24/2024, 12:14:20 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:16:14 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/24/2024, 12:16:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:16:14 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/24/2024, 12:16:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (55ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:16:14 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/24/2024, 12:16:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:16:14 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/24/2024, 12:16:14 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 1ms'[39m
+]
+[12/24/2024, 12:16:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (10ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:16:14 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/24/2024, 12:16:14 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:16:38 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/24/2024, 12:16:38 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (3ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:16:38 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/24/2024, 12:16:38 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (1ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:16:40 PM] [[36mVERBOSE[0m] [ [32m'[getSyntacticDiagnostics] Called'[39m ]
+[12/24/2024, 12:16:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getSyntacticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:16:40 PM] [[36mVERBOSE[0m] [ [32m'[getSemanticDiagnostics] Called'[39m ]
+[12/24/2024, 12:16:40 PM] [[36mVERBOSE[0m] [
+  [32m'Analyzed 0 files (0 invalidated) in 0ms'[39m
+]
+[12/24/2024, 12:16:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getSemanticDiagnostics] Finished (1ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:16:40 PM] [[36mVERBOSE[0m] [ [32m'[getSuggestionDiagnostics] Called'[39m ]
+[12/24/2024, 12:16:40 PM] [[36mVERBOSE[0m] [
+  [32m'[getSuggestionDiagnostics] Finished (0ms): Result: '[39m,
+  [32m'Array: 0 length'[39m
+]
+[12/24/2024, 12:17:04 PM] [[36mVERBOSE[0m] [ [32m'[getCurrentProgram] Called'[39m ]
+[12/24/2024, 12:17:04 PM] [[36mVERBOSE[0m] [
+  [32m'[getCurrentProgram] Finished (3ms): Result: '[39m,
+  [32m'defined'[39m
+]
+[12/24/2024, 12:17:04 PM] [[36mVERBOSE[0m] [ [32m'[getProgram] Called'[39m ]
+[12/24/2024, 12:17:05 PM] [[36mVERBOSE[0m] [
+  [32m'[getProgram] Finished (29ms): Result: '[39m,
+  [32m'defined'[39m
+]

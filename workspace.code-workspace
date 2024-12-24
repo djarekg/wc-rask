@@ -111,6 +111,10 @@
       "editor.defaultFormatter": "tamasfe.even-better-toml"
     },
 
+    "yaml.schemas": {
+      "https://taskfile.dev/schema.json": ["**/Taskfile.yml", "./path/to/any/other/taskfile.yml"]
+    },
+
     "jspm.generate.defaultConditions": "development,browser,module",
     "jspm.generate.preload": "ask",
     "jspm.generate.integrity": true,

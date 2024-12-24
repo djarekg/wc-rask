@@ -23,21 +23,21 @@
   "exports": {
     ".": {
       "@wc-rask/core": "./src/index.ts",
-      "browser": "./dist/index.js",
+      "import": "./dist/index.js",
       "default": "./src/index.ts",
       "source": "./dist/index.js.map",
       "types": "./dist/index.d.ts"
     },
     "./*": {
       "@wc-rask/core": "./src/*.ts",
-      "browser": "./dist/*.js",
+      "import": "./dist/*.js",
       "default": "./src/*.ts"
     },
     "./package.json": "./package.json"
   },
   "scripts": {
-    "dev": "chomp --watch",
-    "start": "chomp"
+    "dev": "task build -- --watch",
+    "start": "task build"
   },
   "peerDependencies": {
     "typescript": "^5"
