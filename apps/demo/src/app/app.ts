@@ -1,9 +1,7 @@
-import { type CSSResult, LitElement } from 'lit';
-import css from './app.css' with { type: 'css' };
+import { LitElement } from 'lit';
+import './app.css';
 
-export class App extends LitElement {
-  static override styles: CSSResult = css;
-}
+export class App extends LitElement {}
 
 if (!customElements.get('app-root')) {
   customElements.define('app-root', App);

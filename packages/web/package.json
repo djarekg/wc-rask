@@ -43,11 +43,8 @@
     "./package.json": "./package.json"
   },
   "scripts": {
-    "importmaps": "jspm link -p nodemodules importmap.json",
-    "prebuild": "bunx rimraf dist",
-    "build": "jspm build --config jspm.config.mjs",
-    "postbuild": "bun run build:declaration",
-    "build:declaration": "tsc --project tsconfig.types.json"
+    "dev": "task build -- --watch",
+    "start": "task build"
   },
   "peerDependencies": {
     "typescript": "^5"

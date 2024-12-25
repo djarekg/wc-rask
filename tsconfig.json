@@ -11,9 +11,6 @@
   "files": [],
   "references": [
     {
-      "path": "./packages/chomp-extensions",
-    },
-    {
       "path": "./packages/components",
     },
     {

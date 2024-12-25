@@ -7,5 +7,5 @@
     "resolveJsonModule": true,
     "esModuleInterop": true
   },
-  "files": ["build.ts", "upgrade-bun.ts", "parse-tsconfig.ts"]
+  "files": ["upgrade-bun.ts"]
 }

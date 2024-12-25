@@ -1,0 +1,29 @@
+# https://taskfile.dev
+
+version: '3'
+
+tasks:
+  build:
+    desc: Build the project
+    cmds:
+      - task: build:clean
+      - task: build:ts
+      - task: build:typings
+
+  build:clean:
+    internal: true
+    desc: Clean the project
+    cmds:
+      - rm -rf dist
+
+  build:ts:
+    desc: Build typescript
+    deps: [build:clean]
+    cmds:
+      - bun build src/**/*.ts --root src --outdir dist --target browser --experimental-css --splitting --packages external --packages external --sourcemap=linked
+
+  build:typings:
+    desc: Build typings
+    deps: [build:ts]
+    cmds:
+         - bun tsc -p tsconfig.types.json

@@ -1,0 +1,31 @@
+# https://taskfile.dev
+
+version: '3'
+
+includes:
+  core: ./packages/core/taskfile.yml
+  web: ./packages/web/taskfile.yml
+  components: ./packages/components/taskfile.yml
+  demo: ./apps/demo/taskfile.yml
+
+tasks:
+  install:
+    internal: true
+    aliases: [workspace]
+    desc: Initialize the project
+    cmds:
+      - task: install:clean
+      - task: install:bun
+
+  install:clean:
+    internal: true
+    desc: Clean the project
+    cmds:
+      - rm -rf node_modules bun.lockb dist
+
+  install:bun:
+    desc: Install dependencies
+    deps: [install:clean]
+    cmds:
+      - bun install
+

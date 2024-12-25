@@ -1,11 +1,12 @@
 import { Signal, SignalWatcher, html } from '@lit-labs/signals';
 import { redispatchEvent } from '@material/web/internal/events/redispatch-event.js';
-import { type CSSResult, LitElement, type PropertyValues, type TemplateResult } from 'lit';
+import { LitElement, type PropertyValues, type TemplateResult } from 'lit';
 import { property, query, state } from 'lit/decorators.js';
 import { classMap } from 'lit/directives/class-map.js';
 import { live } from 'lit/directives/live.js';
-// import css from './input.css' with { type: 'css' };
 import './text-field.css';
+
+// import './text-field.css';
 /**
  * Input types that are compatible with the text field.
  */
@@ -39,8 +40,6 @@ export type InvalidTextFieldType =
 const BaseClass: typeof LitElement = SignalWatcher(LitElement);
 
 export class TextField extends BaseClass {
-  // static override styles: CSSResult = css;
-
   /**
    * The default value of the text field.
    */

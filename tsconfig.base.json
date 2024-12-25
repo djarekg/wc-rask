@@ -4,11 +4,11 @@
     "outDir": "${configDir}/dist",
 
     // Enable latest features
-    "lib": ["ESNext", "DOM","DOM.Iterable"],
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
     "target": "ESNext",
     "module": "ESNext",
     "moduleDetection": "force",
-    "allowJs": true,
+    "allowJs": false,
 
     // Bundler mode
     "moduleResolution": "bundler",
@@ -31,6 +31,7 @@
     "strict": true,
 
     // Some stricter flags (disabled by default)
+    "isolatedDeclarations": true,
     "noImplicitAny": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
@@ -43,7 +44,7 @@
     "strictNullChecks": false,
     "strictFunctionTypes": true,
     // "strictPropertyInitialization": true,
-    "skipLibCheck": true,
+    "skipLibCheck": true
   },
-  "files": [],
+  "files": []
 }

@@ -1,10 +1,8 @@
-import { type CSSResult, LitElement, type TemplateResult, html } from 'lit';
+import { LitElement, type TemplateResult, html } from 'lit';
 import { property } from 'lit/decorators.js';
-import css from './button.css' with { type: 'css' };
+import './button.css';
 
 export class Button extends LitElement {
-  static override styles: CSSResult = css;
-
   @property({ type: String }) type = 'button';
 
   override render(): TemplateResult {
