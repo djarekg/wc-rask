@@ -1,9 +1,5 @@
 {
-  "env": [
-    "browser",
-    "development",
-    "module"
-  ],
+  "env": ["browser", "development", "module"],
   "imports": {
     "css": "https://ga.jspm.io/npm:css@3.0.0/index.js"
   },

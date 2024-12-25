@@ -1,5 +1,5 @@
 {
-  "extends": ["../../tsconfig.base.json", "../../tsconfig.lit.json"],
+  "extends": ["../../tsconfig.base.json"],
   "compilerOptions": {
     "tsBuildInfoFile": "dist/.tsbuildinfo",
     "rootDir": ".",
@@ -7,7 +7,7 @@
     "paths": {
       "@wc-rask/web/*": ["../../packages/web/src/*"]
     },
-    "types": ["lit", "@wc-rask/web/module", "@wc-rask/web/events", "signal-polyfill"]
+    "types": ["@wc-rask/web/module", "@wc-rask/web/events"]
   },
   "include": ["src/**/*"],
   "exclude": ["dist"]

@@ -1,5 +1,5 @@
 {
-  "extends": ["../../tsconfig.base.json", "../../tsconfig.lit.json"],
+  "extends": ["../../tsconfig.base.json"],
   "compilerOptions": {
     "tsBuildInfoFile": "dist/.tsbuildinfo",
     "rootDir": ".",

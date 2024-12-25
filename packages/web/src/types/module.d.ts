@@ -9,11 +9,10 @@ declare module '*.module.css' {
 }
 
 // CSS
-declare module '*.css' {
-  import type { CSSResult } from 'lit';
-  export const css: CSSResult;
-  export default css;
-}
+// declare module '*.css' {
+//   export const css: CSSResult;
+//   export default css;
+// }
 
 // web worker
 declare module '*?worker' {

@@ -154,7 +154,6 @@
       "biomejs.biome",
       "oven.bun-vscode",
       "jspm.jspm-vscode",
-      "runem.lit-plugin",
       "prisma.prisma-insider",
       "task.vscode-task"
     ]

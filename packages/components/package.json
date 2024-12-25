@@ -33,12 +33,7 @@
     "start": "task build"
   },
   "dependencies": {
-    "@lit-labs/signals": "^0.1.1",
-    "@material/web": "^2.2.0",
-    "@wc-rask/web": "workspace:*",
-    "lit": "^3.2.1",
-    "signal-polyfill": "^0.2.1",
-    "signal-utils": "^0.21.0"
+    "@wc-rask/web": "workspace:*"
   },
   "peerDependencies": {
     "typescript": "^5"

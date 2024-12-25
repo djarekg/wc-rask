@@ -1,22 +1,3 @@
 {
-  "env": [
-    "browser",
-    "development",
-    "module"
-  ],
-  "imports": {
-    "@lit-labs/signals": "../../node_modules/@lit-labs/signals/development/index.js",
-    "lit": "../../node_modules/lit/index.js",
-    "signal-utils": "../../node_modules/signal-utils/dist/index.ts.js"
-  },
-  "scopes": {
-    "../../node_modules/": {
-      "@lit/reactive-element": "../../node_modules/@lit/reactive-element/development/reactive-element.js",
-      "lit-element/lit-element.js": "../../node_modules/lit-element/development/lit-element.js",
-      "lit-html": "../../node_modules/lit-html/development/lit-html.js",
-      "lit-html/": "../../node_modules/lit-html/development/",
-      "lit/": "../../node_modules/lit/",
-      "signal-polyfill": "../../node_modules/signal-polyfill/dist/index.js"
-    }
-  }
+  "env": ["browser", "development", "module"]
 }

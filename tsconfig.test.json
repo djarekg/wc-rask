@@ -5,10 +5,9 @@
     "esModuleInterop": true,
     "module": "NodeNext",
     "moduleResolution": "nodenext",
-    "sourceMap": true,
-    "types": ["jest"]
+    "sourceMap": true
   },
   "compileOnSave": true,
   "include": ["src/**/*.ts"],
-  "exclude": ["node_modules"],
+  "exclude": ["node_modules"]
 }
